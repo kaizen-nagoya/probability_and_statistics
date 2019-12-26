@@ -1,5 +1,5 @@
 
-
+# 1
 Effectivity in Mochizuki's work on the abc-conjecture
 https://arxiv.org/abs/1601.03572
 
@@ -22,3 +22,9 @@ https://arxiv.org/abs/1601.03572
 [9] Scherr Z., Zieve M.: Separated Belyi maps, Math. Res. Letters, vol. 21 (2014), no. 6, pp.1389–1406.
 
 [10] Schmidt W.M.: Construction and estimation of bases in function fields, J. Number Theory, vol. 39 (1991), pp. 181–224.
+
+# 2
+SEMI-POSITIVITY AND FROBENIUS CRYSTALS
+On Semi-Positivity and Filtered Frobenius Crystals
+by Shinichi MOCHIZUKI
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.309.5803&rep=rep1&type=pdf
