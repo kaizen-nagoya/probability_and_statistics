@@ -90,3 +90,28 @@ Bibliography
 [Tama1] Tamagawa, A., The Grothendieck conjecture for affine curves, Compositio Math. 109, No. 2 (1997), pp. 135-194.
 
 [Tama2] Tamagawa, A., On the fundamental groups of curves over algebraically closed fields of characteristic > 0, RIMS Preprint 1182 (January 1998).
+
+
+The Grothendieck Conjecture on the Fundamental Groups of Algebraic Curves
+Hiroaki Nakamura, Akio Tamagawa, Shinichi Mochizuki
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.309.3661&rep=rep1&type=pdf
+
+
+G.Anderson, Y.Ihara, Pro-l branched coverings of P1 and higher circular l-units, Part 1, Ann. of Math. 128 (1988), 271–293; Part 2, Intern. J. Math. 1 (1990), 119–148.
+G.V.Belyi, On Galois extensions of a maximal cyclotomic field, Izv. Akad. Nauk. SSSR 8 (1979), 267–276 (Russian); English transl. in Math. USSR Izv. 14 (1980), no. 2, 247–256.
+S.Bloch, K.Kato, L-functions and Tamagawa numbers of motives, The Grothendieck Festschrift, Volume I, Birkha ̈user, 1990, pp. 333–400.
+G.Faltings, Endlichkeitssa ̈tze fu ̈r abelsche Varieta ̈ten u ̈ber Zahlko ̈rpern, Invent. Math. 73 (1983), 349–366.
+, p-adic Hodge theory, J. of the Amer. Math. Soc. 1 (1988), 255–299.
+A.Grothendieck, M.Raynaud, Revˆetement Etales et Groupe Fondamental (SGA1), Lecture Note in Math., vol. 224, Springer, Berlin Heidelberg New York, 1971. A.Grothendieck,Lalonguemarchea`traversdelath ́eoriedeGalois,1981,inpreparationby J.Malgoire (first few chapters available since 1996).
+, Esquisse d’un Programme, 1984, in [6] vol.1, 7–48.
+, Letter to G.Faltings, June 1983, in [6] vol.1, 49–58.
+D.Harbater, Fundamental groups of curves in characteristic p, Proc. ICM, Zu ̈rich (1994), 654–666. Y.Ihara, Profinite braid groups, Galois representations, and complex multiplications, Ann. of Math. 123 (1986), 43–106.
+, Braids, Galois groups and some arithmetic functions, Proc. ICM, Kyoto (1990), 99–120. Y.Ihara, H.Nakamura, Some illustrative examples for anabelian geometry in high dimensions, in [6] vol.1, 127–138.
+M.Matsumoto, A.Tamagawa, Mapping-class-group action versus Galois action on profinite funda- mental groups, Preprint 1997.
+S.Mochizuki, The profinite Grothendieck conjecture for hyperbolic curves over number fields, J. Math. Sci., Univ. Tokyo 3 (1996), 571–627.
+, The local pro-p Grothendieck conjecture for hyperbolic curves, RIMS Preprint 1045, Kyoto Univ. (1995).
+, The local pro-p anabelian geometry of curves, RIMS Preprint 1097, Kyoto Univ. (1996).
+, A Grothendieck conjecture-type result for certain hyperbolic surfaces, RIMS Preprint 1104, Kyoto Univ. (1996).
+, A theory of ordinary p-adic curves, Publ. of RIMS 32 (1996), 957–1151.
+, The generalized ordinary moduli of p-adic hyperbolic curves, RIMS Preprint 1051, Kyoto Univ. (1995).
+, Combinatorialization of p-adic Teichmu ̈ller theory, RIMS Preprint 1076, Kyoto Univ. , Correspondences on hyperbolic curves, J. Pure Appl. Algebra 131 (1998), 227–244.
