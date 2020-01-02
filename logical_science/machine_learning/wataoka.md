@@ -1281,6 +1281,11 @@ joint conference on artificial intelligence, vol. 17, no. 1, 2001, pp. 973–
 
 # 8 Data Decision and Theoretical Implications when Adversarially Learning Fair Representations
 
+ReLU
+UCI
+
+deep neural network (DNN)
+
 REFERENCES
 [1] Alex Beutel, Ed H Chi, Zhiyuan Cheng, Hubert Pham, and John Anderson. 2017.
 Beyond Globally Optimal: Focused Learning for Improved Recommendations. In
@@ -1315,4 +1320,179 @@ uci.edu/ml
 [11] Rich Zemel, Yu Wu, Kevin Swersky, Toni Pitassi, and Cynthia Dwork. 2013.
 Learning fair representations. In Proceedings of the 30th International Conference
 on Machine Learning (ICML-13). 325–333.
+
+# 9 Decision Theory for Discrimination-aware Classification
+
+Discrimination-Aware Ensemble (DAE)
+naive Bayes (NBS)
+Reject Option based Classification (ROC),
+
+REFERENCES
+[1] T. Calders and S. Verwer, “Three naive Bayes approaches for
+discrimination-free classification,” DMKD, vol. 21, no. 2, pp.
+277–292, 2010.
+[2] F. Kamiran, T. Calders, and M. Pechenizkiy, “Discrimination
+aware decision tree learning,” in ICDM, 2010, pp. 869–874.
+[3] D. Pedreschi, S. Ruggieri, and F. Turini, “Discriminationaware
+data mining,” in KDD, 2008.
+[4] B. Luong, S. Ruggieri, and F. Turini, “k-nn as an implementation
+of situation testing for discrimination discovery and
+prevention,” in KDD, 2011, pp. 502–510.
+[5] S. Hajian and J. Domingo-Ferrer, “A methodology for direct
+and indirect discrimination prevention in data mining,” TKDE,
+vol. accepted, 2012.
+[6] F. Kamiran and T. Calders, “Data preprocessing techniques
+for classification without discrimination,” KAIS, pp. 1–33,
+2012.
+[7] I. Zliobaite, F. Kamiran, and T. Calders, “Handling conditional
+discrimination,” in ICDM), 2011, pp. 992–1001.
+[8] T. Kamishima, S. Akaho, and J. Sakuma, “Fairness-aware
+learning through regularization approach,” in ICDMW), 2011.
+[9] L. I. Kuncheva and C. J. Whitaker, “Measures of diversity in
+classifier ensembles and their relationship with the ensemble
+accuracy,” Machine Learning, vol. 51, pp. 181–207, 2003.
+[10] A. Asuncion and D. Newman, “UCI machine learning repository,”
+Online http://archive.ics.uci.edu/ml/, 2007.
+
+# 10 Distillation as a Defense to Adversarial Perturbations against Deep Neural Networks
+
+Army Research Laboratory(ARL)
+Deep Learning (DL)
+
+REFERENCES
+[1] A. Krizhevsky, I. Sutskever, and G. E. Hinton, “Imagenet classification
+with deep convolutional neural networks,” in Advances in neural information
+processing systems, 2012, pp. 1097–1105.
+[2] T. N. Sainath, A.-r. Mohamed, B. Kingsbury, and B. Ramabhadran,
+“Deep convolutional neural networks for lvcsr,” in Acoustics, Speech
+and Signal Processing (ICASSP), 2013 IEEE International Conference
+on. IEEE, 2013, pp. 8614–8618.
+[3] P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. Le-
+Cun, “Overfeat: Integrated recognition, localization and detection using
+convolutional networks,” in International Conference on Learning Representations
+(ICLR 2014). arXiv preprint arXiv:1312.6229, 2014.
+[4] G. E. Dahl, J. W. Stokes, L. Deng, and D. Yu, “Large-scale malware
+classification using random projections and neural networks,” in Acoustics,
+Speech and Signal Processing (ICASSP), 2013 IEEE International
+Conference on. IEEE, 2013, pp. 3422–3426.
+[5] Z. Yuan, Y. Lu, Z. Wang, and Y. Xue, “Droid-sec: deep learning in
+android malware detection,” in Proceedings of the 2014 ACM conference
+on SIGCOMM. ACM, 2014, pp. 371–372.
+[6] E. Knorr, “How paypal beats the bad guys
+with machine learning,” 2015. [Online]. Available:
+http://www.infoworld.com/article/2907877/machine-learning/
+how-paypal-reduces-fraud-with-machine-learning.html
+[7] N. Papernot, P. McDaniel, S. Jha, M. Fredrikson, Z. B. Celik, and
+A. Swami, “The limitations of deep learning in adversarial settings,”
+in Proceedings of the 1st IEEE European Symposium on Security and
+Privacy. IEEE, 2016.
+[8] C. Szegedy, W. Zaremba, I. Sutskever, J. Bruna, D. Erhan, I. Goodfellow,
+and R. Fergus, “Intriguing properties of neural networks,” in Proceedings
+of the 2014 International Conference on Learning Representations.
+Computational and Biological Learning Society, 2014.
+[9] I. J. Goodfellow, J. Shlens, and C. Szegedy, “Explaining and harnessing
+adversarial examples,” in Proceedings of the 2015 International Conference
+on Learning Representations. Computational and Biological
+Learning Society, 2015.
+[10] NVIDIA, “Nvidia tegra drive px: Self-driving car computer,” 2015.
+[Online]. Available: http://www.nvidia.com/object/drive-px.html
+[11] D. Cires¸an, U. Meier, J. Masci et al., “Multi-column deep neural network
+for traffic sign classification.”
+[12] L. Huang, A. D. Joseph, B. Nelson, B. I. Rubinstein, and J. Tygar, “Adversarial
+machine learning,” in Proceedings of the 4th ACM workshop
+on Security and artificial intelligence. ACM, 2011, pp. 43–58.
+[13] B. Biggio, G. Fumera et al., “Pattern recognition systems under attack:
+Design issues and research challenges,” International Journal of Pattern
+Recognition and Artificial Intelligence, vol. 28, no. 07, p. 1460002, 2014.
+[14] B. Biggio, I. Corona, D. Maiorca, B. Nelson et al., “Evasion attacks
+against machine learning at test time,” in Machine Learning and
+Knowledge Discovery in Databases. Springer, 2013, pp. 387–402.
+[15] A. Anjos and S. Marcel, “Counter-measures to photo attacks in face
+recognition: a public database and a baseline,” in Proceedings of the
+2011 International Joint Conference on Biometrics. IEEE, 2011.
+[16] P. Fogla and W. Lee, “Evading network anomaly detection systems:
+formal reasoning and practical techniques,” in Proceedings of the 13th
+ACM conference on Computer and communications security. ACM,
+2006, pp. 59–68.
+[17] S. Gu and L. Rigazio, “Towards deep neural network architectures
+robust to adversarial examples,” in Proceedings of the 2015 International
+Conference on Learning Representations. Computational and Biological
+Learning Society, 2015.
+[18] J. Ba and R. Caruana, “Do deep nets really need to be deep?” in
+Advances in Neural Information Processing Systems, 2014, pp. 2654–
+2662.
+[19] G. Hinton, O. Vinyals, and J. Dean, “Distilling the knowledge in a neural
+network,” in Deep Learning and Representation Learning Workshop at
+NIPS 2014. arXiv preprint arXiv:1503.02531, 2014.
+[20] Y. LeCun and C. Cortes, “The mnist database of handwritten digits,”
+1998.
+[21] A. Krizhevsky and G. Hinton, “Learning multiple layers of features from
+tiny images,” 2009.
+[22] Y. Bengio, I. J. Goodfellow, and A. Courville, “Deep learning,”
+2015, book in preparation for MIT Press. [Online]. Available:
+http://www.iro.umontreal.ca/bengioy/dlbook
+[23] G. E. Hinton, “Learning multiple layers of representation,” Trends in
+cognitive sciences, vol. 11, no. 10, pp. 428–434, 2007.
+[24] D. E. Rumelhart, G. E. Hinton, and R. J. Williams, “Learning representations
+by back-propagating errors,” Cognitive modeling, vol. 5, 1988.
+[25] J. Bergstra and Y. Bengio, “Random search for hyper-parameter optimization,”
+The Journal of Machine Learning Research, vol. 13, no. 1,
+pp. 281–305, 2012.
+[26] X. Glorot, A. Bordes, and Y. Bengio, “Domain adaptation for largescale
+sentiment classification: A deep learning approach,” in Proceedings
+of the 28th International Conference on Machine Learning (ICML-11),
+2011, pp. 513–520.
+[27] J. Masci, U. Meier, D. Cires¸an et al., “Stacked convolutional autoencoders
+for hierarchical feature extraction,” in Artificial Neural Networks
+and Machine Learning–ICANN 2011. Springer, 2011, pp. 52–59.
+[28] D. Erhan, Y. Bengio, A. Courville, P.-A. Manzagol, P. Vincent, and
+S. Bengio, “Why does unsupervised pre-training help deep learning?”
+The Journal of Machine Learning Research, vol. 11, pp. 625–660, 2010.
+[29] T. Miyato, S. Maeda, M. Koyama et al., “Distributional smoothing by
+virtual adversarial examples,” CoRR, vol. abs/1507.00677, 2015.
+[30] A. Fawzi, O. Fawzi, and P. Frossard, “Analysis of classifiers’ robustness
+to adversarial perturbations,” in Deep Learning Workshop at ICML 2015.
+arXiv preprint arXiv:1502.02590, 2015.
+[31] H. Drucker and Y. Le Cun, “Improving generalization performance
+using double backpropagation,” Neural Networks, IEEE Transactions
+on, vol. 3, no. 6, pp. 991–997, 1992.
+[32] A. Nguyen, J. Yosinski, and J. Clune, “Deep neural networks are easily
+fooled: High confidence predictions for unrecognizable images,” in In
+Computer Vision and Pattern Recognition (CVPR 2015). IEEE, 2015.
+[33] G. Cybenko, “Approximation by superpositions of a sigmoidal function,”
+Mathematics of Control, Signals, and Systems , vol. 5, no. 4, p. 455,
+1992.
+[34] S. Shalev-Shwartz, O. Shamir, N. Srebro, and K. Sridharan, “Learnability,
+stability and uniform convergence,” The Journal of Machine
+Learning Research, vol. 11, pp. 2635–2670, 2010.
+[35] J. Bergstra, O. Breuleux, F. Bastien, P. Lamblin, R. Pascanu, G. Desjardins,
+J. Turian, D. Warde-Farley, and Y. Bengio, “Theano: a cpu
+and gpu math expression compiler,” in Proceedings of the Python for
+scientific computing conference (SciPy), vol. 4. Austin, TX, 2010, p. 3.
+[36] E. Battenberg, S. Dieleman, D. Nouri, E. Olson, A. van den Oord,
+C. Raffel, J. Schlter, and S. Kaae Snderby, “Lasagne: Lightweight
+library to build and train neural networks in theano,” 2015. [Online].
+Available: https://github.com/Lasagne/Lasagne
+[37] B. Biggio, K. Rieck, D. Ariu, C. Wressnegger et al., “Poisoning
+behavioral malware clustering,” in Proceedings of the 2014 Workshop
+on Artificial Intelligent and Security Workshop. ACM, 2014, pp. 27–36.
+[38] D. Warde-Farley and I. Goodfellow, “Adversarial perturbations of deep
+neural networks,” in Advanced Structured Prediction, T. Hazan, G. Papandreou,
+and D. Tarlow, Eds., 2016.
+[39] M. Barreno, B. Nelson, A. D. Joseph, and J. Tygar, “The security of
+machine learning,” Machine Learning, vol. 81, no. 2, pp. 121–148, 2010.
+[40] W. Xu, Y. Qi et al., “Automatically evading classifiers,” in Proceedings
+of the 2016 Network and Distributed Systems Symposium, 2016.
+[41] M. Barreno, B. Nelson, R. Sears, A. D. Joseph, and J. D. Tygar,
+“Can machine learning be secure?” in Proceedings of the 2006 ACM
+Symposium on Information, computer and communications security.
+ACM, 2006, pp. 16–25.
+[42] B. Biggio, G. Fumera, and F. Roli, “Security evaluation of pattern
+classifiers under attack,” Knowledge and Data Engineering, IEEE Transactions
+on, vol. 26, no. 4, pp. 984–996, 2014.
+[43] B. Biggio, B. Nelson, and L. Pavel, “Poisoning attacks against support
+vector machines,” in Proceedings of the 29th International Conference
+on Machine Learning, 2012.
+[44] B. Biggio, B. Nelson, and P. Laskov, “Support vector machines under
+adversarial label noise.” in ACML, 2011, pp. 97–112.
 
