@@ -661,3 +661,104 @@ Wang, S. I. and Manning, C. D. Fast dropout training.
 Proceedings of the 30th International Conference
 on Machine Learning, 28:118–126, 2013.
 URL http://machinelearning.wustl.edu/mlpapers/papers/wang13a.
+
+# 4
+NGO
+BER
+
+Disparate Impact(DI)
+
+US Equal Employment Opportunity Commission (EEOC)
+
+Logistic Regression(LR)
+
+Regularized Logistic Regression(RLR)
+
+
+References
+[1] S. Barocas and A. D. Selbst. Big data’s disparate impact. Technical report, available at
+SSRN: http://ssrn.com/abstract=2477899, 2014.
+
+[2] T. Calders, F. Kamiran, and M. Pechenizkiy. Building classifiers with independency
+constraints. In ICDM Workshop Domain Driven Data Mining, pages 13–18, 2009.
+
+[3] T. Calders and S. Verwer. Three naive bayes approaches for discrimination-free
+classification. Data Mining journal; special issue with selected papers from ECML/PKDD,
+2010.
+
+[4] C. Dwork, M. Hardt, T. Pitassi, O. Reingold, and R. Zemel. Fairness through awareness.
+In Proc. of Innovations in Theoretical Computer Science, 2012.
+
+[5] R.-E. Fan, K.-W. Chang, C.-J. Hsieh, X.-R. Wang, and C.-J. Lin. Liblinear: A library for
+large linear classification. J. of Machine Learning Research, 9:1871–1874, 2008.
+
+[6] H. Hodson. No one in control: The algorithms that run our lives. New Scientist, Feb.
+04, 2015.
+
+[7] T. Joachims. A support vector method for multivariate performance measures. In
+Proc. of Intl. Conf. on Machine Learning, pages 377–384. ACM, 2005.
+8 Acknowledgments 25
+
+[8] F. Kamiran and T. Calders. Classifying without discriminating. In Proc. of the IEEE
+International Conference on Computer, Control and Communication, 2009.
+
+[9] T. Kamishima, S. Akaho, H. Asoh, and J. Sakuma. Fairness-aware classifier with
+prejudice remover regularizer. Machine Learning and Knowledge Discovery in Databases,
+pages 35–50, 2012.
+
+[10] T. Kamishima, S. Akaho, and J. Sakuma. Fairness aware learning through regularization
+approach. In Proc of. Intl. Conf. on Data Mining, pages 643–650, 2011.
+
+[11] B. T. Luong, S. Ruggieri, and F. Turini. k-nn as an implementation of situation testing
+for discrimination discovery and prevention. In Proc. of Intl. Conf. on Knowledge
+Discovery and Data Mining, KDD ’11, pages 502–510, 2011.
+
+[12] A. Menon, H. Narasimhan, S. Agarwal, and S. Chawla. On the statistical consistency
+of algorithms for binary classification under class imbalance. In Proc. 30th. ICM, pages
+603–611, 2013.
+
+[13] W. Miao. Did the results of promotion exams have a disparate impact on minorities?
+Using statistical evidence in Ricci v. DeStefano. J. of Stat. Ed., 19(1), 2011.
+
+[14] J. Pearl. Understanding simpson’s paradox. The American Statistician, 2014.
+
+[15] D. Pedreschi, S. Ruggieri, and F. Turini. Integrating induction and deduction for
+finding evidence of discrimination. In Proc. of Intl. Conf. on Artificial Intelligence and
+Law, ICAIL ’09, pages 157–166, 2009.
+
+[16] D. Pedreschi, S. Ruggieri, and F. Turini. A study of top-k measures for discrimination
+discovery. In Proc. of Symposium on Applied Computing, SAC ’12, pages 126–131, 2012.
+
+[17] J. L. Peresie. Toward a coherent test for disparate impact discrimination. Indiana Law
+Journal, 84(3):Article 1, 2009.
+
+[18] J. Podesta, P. Pritzker, E. J. Moniz, J. Holdren, and J. Zients. Big data: seizing opportunities,
+preserving values. Executive Office of the President, May 2014.
+
+[19] A. Romei and S. Ruggieri. A multidisciplinary survey on discrimination analysis. The
+Knowledge Engineering Review, pages 1–57, April 3 2013.
+
+[20] Supreme Court of the United States. Griggs v. Duke Power Co. 401 U.S. 424, March 8,
+1971.
+
+[21] Supreme Court of the United States. Watson v. Fort Worth Bank & Trust. 487 U.S. 977,
+995, 1988.
+
+[22] Supreme Court of the United States. Ricci v. DeStefano. 557 U.S. 557, 174, 2009.
+A A Survey of Discrimination Types 26
+
+[23] Texas House of Representatives. House bill 588. 75th Legislature, 1997.
+
+[24] The Leadership Conference. Civil rights principles for the era of big data.
+http://www.civilrights.org/press/2014/civil-rights-principles-big-data.html, Feb.
+27, 2014.
+
+[25] The U.S. EEOC. Uniform guidelines on employee selection procedures, March 2, 1979.
+
+[26] R. Zemel, Y. Wu, K. Swersky, T. Pitassi, and C. Dwork. Learning fair representations.
+In Proc. of Intl. Conf. on Machine Learning, pages 325–333, 2013.
+
+[27] M.-J. Zhao, N. Edakunni, A. Pocock, and G. Brown. Beyond Fano’s inequality: bounds
+on the optimal F-score, BER, and cost-sensitive risk and their implications. J. of Machine
+Learning Research, 14(1):1033–1090, 2013.
+
