@@ -1,3 +1,11 @@
+2019年、俺の読んだ論文50本全部解説(俺的ベスト3付き) 綿岡晃輝
+https://qiita.com/wataoka/items/ae782defabc3706b5c93
+
+深層学習五十論文 by 綿岡晃輝 単語帳(shell, awk), 英語(25) docker(101)
+https://qiita.com/kaizen_nagoya/items/670d4d332e07fd2e5fc2
+
+https://hub.docker.com/u/kaizenjapan
+$ docker run -v /tmp/docker:/tmp/docker -it kaizenjapan/qc-nakamori /bin/bash
 
 # 1 A Survey on Bias and Fairness in Machine Learning
 
@@ -1496,3 +1504,448 @@ on Machine Learning, 2012.
 [44] B. Biggio, B. Nelson, and P. Laskov, “Support vector machines under
 adversarial label noise.” in ACML, 2011, pp. 97–112.
 
+ # 11 Domain-Adversarial Training of Neural Networks
+ 
+ CMC
+ PRID
+ CUHK
+ 
+ Canada Foundation for Innovation (CFI)
+ 
+ domain adaptation (DA)
+ 
+ Deep Metric Learning (DM)
+ 
+ Fonds de recherche du Quebec Nature et technologies (FRQNT)
+ 
+ gradient reversal layer (GRL)
+ 
+ marginalized Stacked Autoencoders (mSDA)
+ 
+ National Science and Engineering Research Council (NSERC)
+ 
+ Proxy A-distances (PAD)
+ 
+ References
+ 
+Hana Ajakan, Pascal Germain, Hugo Larochelle, Francois Laviolette, and Mario Marchand.
+Domain-adversarial neural networks. NIPS 2014 Workshop on Transfer and Multi-task
+learning: Theory Meets Practice, 2014. URL http://arxiv.org/abs/1412.4446.
+Pablo Arbelaez, Michael Maire, Charless Fowlkes, and Jitendra Malik. Contour detection
+and hierarchical image segmentation. IEEE Transaction Pattern Analysis and Machine
+Intelligence, 33, 2011.
+Artem Babenko, Anton Slesarev, Alexander Chigorin, and Victor S. Lempitsky. Neural
+codes for image retrieval. In ECCV, pages 584{599, 2014.
+Mahsa Baktashmotlagh, Mehrtash Tafazzoli Harandi, Brian C. Lovell, and Mathieu Salzmann.
+Unsupervised domain adaptation by domain invariant projection. In ICCV, pages
+769{776, 2013.
+Shai Ben-David, John Blitzer, Koby Crammer, and Fernando Pereira. Analysis of representations
+for domain adaptation. In NIPS, pages 137{144, 2006.
+Shai Ben-David, John Blitzer, Koby Crammer, Alex Kulesza, Fernando Pereira, and Jennifer
+Wortman Vaughan. A theory of learning from dierent domains. Machine Learning,
+79(1-2):151{175, 2010.
+John Blitzer, Ryan T. McDonald, and Fernando Pereira. Domain adaptation with structural
+correspondence learning. In Conference on Empirical Methods in Natural Language
+Processing, pages 120{128, 2006.
+
+Ganin, Ustinova, Ajakan, Germain, Larochelle, Laviolette, Marchand and Lempitsky
+Karsten M. Borgwardt, Arthur Gretton, Malte J. Rasch, Hans-Peter Kriegel, Bernhard
+Scholkopf, and Alexander J. Smola. Integrating structured biological data by kernel
+maximum mean discrepancy. In ISMB, pages 49{57, 2006.
+Lorenzo Bruzzone and Mattia Marconcini. Domain adaptation problems: A DASVM classi-
+cation technique and a circular validation strategy. IEEE Transaction Pattern Analysis
+and Machine Intelligence, 32(5):770{787, 2010.
+Minmin Chen, Zhixiang Eddie Xu, Kilian Q. Weinberger, and Fei Sha. Marginalized denoising
+autoencoders for domain adaptation. In ICML, pages 767{774, 2012.
+Qiang Chen, Junshi Huang, Rogerio Feris, Lisa M. Brown, Jian Dong, and Shuicheng Yan.
+Deep domain adaptation for describing people based on ne-grained clothing attributes.
+In CVPR, June 2015.
+S. Chopra, S. Balakrishnan, and R. Gopalan. Dlid: Deep learning for domain adaptation
+by interpolating between domains. In ICML Workshop on Challenges in Representation
+Learning, 2013.
+Dan Ciresan, Ueli Meier, Jonathan Masci, and Jurgen Schmidhuber. Multi-column deep
+neural network for trac sign classication. Neural Networks, 32:333{338, 2012.
+Corinna Cortes and Mehryar Mohri. Domain adaptation and sample bias correction theory
+and algorithm for regression. Theor. Comput. Sci., 519:103{126, 2014.
+Je Donahue, Yangqing Jia, Oriol Vinyals, Judy Homan, Ning Zhang, Eric Tzeng, and
+Trevor Darrell. Decaf: A deep convolutional activation feature for generic visual recognition.
+In ICML, 2014.
+John Duchi, Elad Hazan, and Yoram Singer. Adaptive subgradient methods for online
+learning and stochastic optimization. Technical report, EECS Department, University of
+California, Berkeley, Mar 2010.
+Rong-En Fan, Kai-Wei Chang, Cho-Jui Hsieh, Xiang-Rui Wang, and Chih-Jen Lin. LIBLINEAR:
+A library for large linear classication. Journal of Machine Learning Research,
+9:1871{1874, 2008.
+Basura Fernando, Amaury Habrard, Marc Sebban, and Tinne Tuytelaars. Unsupervised
+visual domain adaptation using subspace alignment. In ICCV, 2013.
+Yaroslav Ganin and Victor Lempitsky. Unsupervised domain adaptation by backpropagation.
+In ICML, pages 325{333, 2015. URL http://jmlr.org/proceedings/papers/
+v37/ganin15.html.
+Pascal Germain, Amaury Habrard, Francois Laviolette, and Emilie Morvant. A PACBayesian
+approach for domain adaptation with specialization to linear classiers. In
+ICML, pages 738{746, 2013.
+Xavier Glorot, Antoine Bordes, and Yoshua Bengio. Domain adaptation for large-scale
+sentiment classication: A deep learning approach. In ICML, pages 513{520, 2011.
+
+Domain-Adversarial Neural Networks
+Boqing Gong, Yuan Shi, Fei Sha, and Kristen Grauman. Geodesic 
+ow kernel for unsupervised
+domain adaptation. In CVPR, pages 2066{2073, 2012.
+Boqing Gong, Kristen Grauman, and Fei Sha. Connecting the dots with landmarks: Discriminatively
+learning domain-invariant features for unsupervised domain adaptation. In
+ICML, pages 222{230, 2013.
+Shaogang Gong, Marco Cristani, Shuicheng Yan, and Chen Change Loy. Person re-
+identication. Springer, 2014.
+Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil
+Ozair, Aaron Courville, and Yoshua Bengio. Generative adversarial nets. In NIPS, 2014.
+Raghuraman Gopalan, Ruonan Li, and Rama Chellappa. Domain adaptation for object
+recognition: An unsupervised approach. In ICCV, pages 999{1006, 2011.
+Doug Gray, Shane Brennan, and Hai Tao. Evaluating appearance models for recognition,
+reacquisition, and tracking. In IEEE International Workshop on Performance Evaluation
+for Tracking and Surveillance, Rio de Janeiro, 2007.
+Martin Hirzer, Csaba Beleznai, Peter M. Roth, and Horst Bischof. Person re-identication
+by descriptive and discriminative classication. In SCIA, 2011.
+Judy Homan, Eric Tzeng, Je Donahue, Yangqing Jia, Kate Saenko, and Trevor Darrell.
+One-shot adaptation of supervised deep convolutional models. CoRR, abs/1312.6204,
+2013. URL http://arxiv.org/abs/1312.6204.
+Fei Huang and Alexander Yates. Biased representation learning for domain adaptation. In
+Joint Conference on Empirical Methods in Natural Language Processing and Computa-
+tional Natural Language Learning, pages 1313{1323, 2012.
+Jiayuan Huang, Alexander J. Smola, Arthur Gretton, Karsten M. Borgwardt, and Bernhard
+Scholkopf. Correcting sample selection bias by unlabeled data. In NIPS, pages 601{608,
+2006.
+Yangqing Jia, Evan Shelhamer, Je Donahue, Sergey Karayev, Jonathan Long, Ross Girshick,
+Sergio Guadarrama, and Trevor Darrell. Cae: Convolutional architecture for fast
+feature embedding. CoRR, abs/1408.5093, 2014.
+Daniel Kifer, Shai Ben-David, and Johannes Gehrke. Detecting change in data streams. In
+Very Large Data Bases, pages 180{191, 2004.
+Alex Krizhevsky, Ilya Sutskever, and Georey Hinton. Imagenet classication with deep
+convolutional neural networks. In NIPS, pages 1097{1105, 2012.
+Alexandre Lacoste, Francois Laviolette, and Mario Marchand. Bayesian comparison of
+machine learning algorithms on single and multiple datasets. In AISTATS, pages 665{
+675, 2012.
+Y. LeCun, L. Bottou, Y. Bengio, and P. Haner. Gradient-based learning applied to document
+recognition. Proceedings of the IEEE, 86(11):2278{2324, November 1998.
+
+Ganin, Ustinova, Ajakan, Germain, Larochelle, Laviolette, Marchand and Lempitsky
+Wei Li and Xiaogang Wang. Locally aligned feature transforms across views. In CVPR,
+pages 3594{3601, 2013.
+Yujia Li, Kevin Swersky, and Richard Zemel. Unsupervised domain adaptation by domain
+invariant projection. In NIPS 2014 Workshop on Transfer and Multitask Learning, 2014.
+Joerg Liebelt and Cordelia Schmid. Multi-view object class detection with a 3d geometric
+model. In CVPR, 2010.
+Chunxiao Liu, Chen Change Loy, Shaogang Gong, and Guijin Wang. POP: person reidenti
+cation post-rank optimisation. In ICCV, pages 441{448, 2013.
+Mingsheng Long and Jianmin Wang. Learning transferable features with deep adaptation
+networks. CoRR, abs/1502.02791, 2015.
+Andy Jinhua Ma, Jiawei Li, Pong C. Yuen, and Ping Li. Cross-domain person reidenti-
+cation using domain adaptation ranking svms. IEEE Transactions on Image Processing,
+24(5):1599{1613, 2015.
+Yishay Mansour, Mehryar Mohri, and Afshin Rostamizadeh. Domain adaptation: Learning
+bounds and algorithms. In COLT, 2009a.
+Yishay Mansour, Mehryar Mohri, and Afshin Rostamizadeh. Multiple source adaptation
+and the renyi divergence. In UAI, pages 367{374, 2009b.
+Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, and Andrew Y. Ng.
+Reading digits in natural images with unsupervised feature learning. In NIPS Workshop
+on Deep Learning and Unsupervised Feature Learning, 2011.
+M. Oquab, L. Bottou, I. Laptev, and J. Sivic. Learning and transferring mid-level image
+representations using convolutional neural networks. In CVPR, 2014.
+Sakrapee Paisitkriangkrai, Chunhua Shen, and Anton van den Hengel. Learning to rank
+in person re-identication with metric ensembles. CoRR, abs/1503.01543, 2015. URL
+http://arxiv.org/abs/1503.01543.
+Sinno Jialin Pan, Ivor W. Tsang, James T. Kwok, and Qiang Yang. Domain adaptation
+via transfer component analysis. IEEE Transactions on Neural Networks, 22(2):199{210,
+2011.
+Kate Saenko, Brian Kulis, Mario Fritz, and Trevor Darrell. Adapting visual category models
+to new domains. In ECCV, pages 213{226, 2010.
+Nitish Srivastava, Georey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov.
+Dropout: A simple way to prevent neural networks from overtting. The Journal
+of Machine Learning Research, 15(1):1929{1958, 2014.
+Michael Stark, Michael Goesele, and Bernt Schiele. Back to the future: Learning shape
+models from 3d CAD data. In BMVC, pages 1{11, 2010.
+
+Domain-Adversarial Neural Networks
+Baochen Sun and Kate Saenko. From virtual to reality: Fast adaptation of virtual object
+detectors to real domains. In BMVC, 2014.
+Eric Tzeng, Judy Homan, Ning Zhang, Kate Saenko, and Trevor Darrell. Deep domain
+confusion: Maximizing for domain invariance. CoRR, abs/1412.3474, 2014. URL http:
+//arxiv.org/abs/1412.3474.
+Laurens van der Maaten. Barnes-Hut-SNE. CoRR, abs/1301.3342, 2013. URL http:
+//arxiv.org/abs/1301.3342.
+David Vazquez, Antonio Manuel Lopez, Javier Marn, Daniel Ponsa, and David Geronimo
+Gomez. Virtual and real world adaptationfor pedestrian detection. IEEE Transaction
+Pattern Analysis and Machine Intelligence, 36(4):797{809, 2014.
+Pascal Vincent, Hugo Larochelle, Yoshua Bengio, and Pierre-Antoine Manzagol. Extracting
+and composing robust features with denoising autoencoders. In ICML, pages 1096{1103,
+2008.
+Dong Yi, Zhen Lei, and Stan Z. Li. Deep metric learning for practical person reidenti
+cation. CoRR, abs/1407.4979, 2014. URL http://arxiv.org/abs/1407.4979.
+Matthew D. Zeiler. ADADELTA: an adaptive learning rate method. CoRR, abs/1212.5701,
+2012. URL http://arxiv.org/abs/1212.5701.
+Matthew D. Zeiler and Rob Fergus. Visualizing and understanding convolutional networks.
+CoRR, abs/1311.2901, 2013. URL http://arxiv.org/abs/1311.2901.
+Ziming Zhang and Venkatesh Saligrama. Person re-identication via structured prediction.
+CoRR, abs/1406.4444, 2014. URL http://arxiv.org/abs/1406.4444.
+Rui Zhao, Wanli Ouyang, and XiaogangWang. Person re-identication by saliency learning.
+CoRR, abs/1412.1908, 2014. URL http://arxiv.org/abs/1412.1908.
+Erheng Zhong, Wei Fan, Qiang Yang, Olivier Verscheure, and Jiangtao Ren. Cross validation
+framework to choose amongst models and datasets for transfer learning. In Machine
+Learning and Knowledge Discovery in Databases, pages 547{562. Springer, 2010.
+
+# 12  Empirical Risk Minimization under Fairness Constraints
+
+ERM
+
+FERM
+
+ACC
+
+Equal Opportunity (EO)
+
+Reproducing Kernel Hilbert Space (RKHS)
+
+
+References
+[1] C. Dwork, N. Immorlica, A. T. Kalai, and M. D. M. Leiserson. Decoupled classifiers for group-fair and
+efficient machine learning. In Conference on Fairness, Accountability and Transparency, 2018.
+[2] M. Hardt, E. Price, and N. Srebro. Equality of opportunity in supervised learning. In Advances in neural
+information processing systems, 2016.
+[3] M. B. Zafar, I. Valera, M. Gomez Rodriguez, and K. P. Gummadi. Fairness beyond disparate treatment &
+disparate impact: Learning classification without disparate mistreatment. In International Conference on
+World Wide Web, 2017.
+[4] R. Zemel, Y. Wu, K. Swersky, T. Pitassi, and C. Dwork. Learning fair representations. In International
+Conference on Machine Learning, 2013.
+[5] N. Kilbertus, M. Rojas-Carulla, G. Parascandolo, M. Hardt, D. Janzing, and B. Schölkopf. Avoiding
+discrimination through causal reasoning. In Advances in Neural Information Processing Systems, 2017.
+[6] M. J. Kusner, J. Loftus, C. Russell, and R. Silva. Counterfactual fairness. In Advances in Neural Information
+Processing Systems, 2017.
+[7] F. Calmon, D. Wei, B. Vinzamuri, K. Natesan Ramamurthy, and K. R. Varshney. Optimized preprocessing
+for discrimination prevention. In Advances in Neural Information Processing Systems, 2017.
+[8] M. Joseph, M. Kearns, J. H. Morgenstern, and A. Roth. Fairness in learning: Classic and contextual
+bandits. In Advances in Neural Information Processing Systems, 2016.
+[9] F. Chierichetti, R. Kumar, S. Lattanzi, and S. Vassilvitskii. Fair clustering through fairlets. In Advances
+in Neural Information Processing Systems, 2017.
+[10] S. Jabbari, M. Joseph, M. Kearns, J. Morgenstern, and A. Roth. Fair learning in markovian environments.
+In Conference on Fairness, Accountability, and Transparency in Machine Learning, 2016.
+[11] S. Yao and B. Huang. Beyond parity: Fairness objectives for collaborative filtering. In Advances in Neural
+Information Processing Systems, 2017.
+[12] K. Lum and J. Johndrow. A statistical framework for fair predictive algorithms. arXiv preprint
+arXiv:1610.08077, 2016.
+[13] I. Zliobaite. On the relation between accuracy and fairness in binary classification. arXiv preprint
+arXiv:1505.05723, 2015.
+[14] T. Calders, F. Kamiran, and M. Pechenizkiy. Building classifiers with independency constraints. In IEEE
+international conference on Data mining, 2009.
+[15] G. Pleiss, M. Raghavan, F. Wu, J. Kleinberg, and K. Q. Weinberger. On fairness and calibration. In
+Advances in Neural Information Processing Systems, 2017.
+[16] A. Beutel, J. Chen, Z. Zhao, and E. H. Chi. Data decisions and theoretical implications when adversarially
+learning fair representations. In Conference on Fairness, Accountability, and Transparency in Machine
+Learning, 2017.
+9
+[17] M. Feldman, S. A. Friedler, J. Moeller, C. Scheidegger, and S. Venkatasubramanian. Certifying and
+removing disparate impact. In International Conference on Knowledge Discovery and Data Mining,
+2015.
+[18] A. Agarwal, A. Beygelzimer, M. Dudík, and J. Langford. A reductions approach to fair classification. In
+Conference on Fairness, Accountability, and Transparency in Machine Learning, 2017.
+[19] A. Agarwal, A. Beygelzimer, M. Dudík, J. Langford, and H. Wallach. A reductions approach to fair
+classification. arXiv preprint arXiv:1803.02453, 2018.
+[20] B.Woodworth, S. Gunasekar, M. I. Ohannessian, and N. Srebro. Learning non-discriminatory predictors.
+In Computational Learning Theory, 2017.
+[21] A. K. Menon and R. C. Williamson. The cost of fairness in binary classification. In Conference on
+Fairness, Accountability and Transparency, 2018.
+[22] M. B. Zafar, I. Valera, M. Rodriguez, K. Gummadi, and A. Weller. From parity to preference-based
+notions of fairness in classification. In Advances in Neural Information Processing Systems, 2017.
+[23] Y. Bechavod and K. Ligett. Penalizing unfairness in binary classification. arXiv preprint
+arXiv:1707.00044v3, 2018.
+[24] M. B. Zafar, I. Valera, M. Gomez Rodriguez, and K. P. Gummadi. Fairness constraints: Mechanisms for
+fair classification. In International Conference on Artificial Intelligence and Statistics, 2017.
+[25] T. Kamishima, S. Akaho, and J. Sakuma. Fairness-aware learning through regularization approach. In
+International Conference on Data Mining Workshops, 2011.
+[26] M. Kearns, S. Neel, A. Roth, and Z. S. Wu. Preventing fairness gerrymandering: Auditing and learning
+for subgroup fairness. arXiv preprint arXiv:1711.05144, 2017.
+[27] A. Pérez-Suay, V. Laparra, G. Mateo-García, J. Muñoz-Marí, L. Gómez-Chova, and G. Camps-Valls. Fair
+kernel learning. In Machine Learning and Knowledge Discovery in Databases, 2017.
+[28] R. Berk, H. Heidari, S. Jabbari, M. Joseph, M. Kearns, J. Morgenstern, S. Neel, and A. Roth. A convex
+framework for fair regression. arXiv preprint arXiv:1706.02409, 2017.
+[29] D. Alabi, N. Immorlica, and A. T. Kalai. When optimizing nonlinear objectives is no harder than linear
+objectives. arXiv preprint arXiv:1804.04503, 2018.
+[30] M. Olfat and A. Aswani. Spectral algorithms for computing fair support vector machines. In International
+Conference on Artificial Intelligence and Statistics, 2018.
+[31] J. Adebayo and L. Kagal. Iterative orthogonal feature projection for diagnosing bias in black-box models.
+In Conference on Fairness, Accountability, and Transparency in Machine Learning, 2016.
+[32] F. Kamiran and T. Calders. Classifying without discriminating. In International Conference on Computer,
+Control and Communication, 2009.
+[33] F. Kamiran and T. Calders. Data preprocessing techniques for classification without discrimination.
+Knowledge and Information Systems, 33(1):1–33, 2012.
+[34] F. Kamiran and T. Calders. Classification with no discrimination by preferential sampling. In Machine
+Learning Conference, 2010.
+[35] S. Shalev-Shwartz and S. Ben-David. Understanding machine learning: From theory to algorithms.
+Cambridge University Press, 2014.
+[36] P. L. Bartlett and S. Mendelson. Rademacher and gaussian complexities: Risk bounds and structural
+results. Journal of Machine Learning Research, 3(Nov):463–482, 2002.
+[37] A. Maurer. A note on the pac bayesian theorem. arXiv preprint cs/0411099, 2004.
+[38] J. Shawe-Taylor and N. Cristianini. Kernel methods for pattern analysis. Cambridge University Press,
+2004.
+[39] A. J. Smola and B. Schölkopf. Learning with Kernels. MIT Press, 2001.
+[40] B. Schölkopf, R. Herbrich, and A. Smola. A generalized representer theorem. In Computational Learning
+Theory, 2001.
+[41] V. N. Vapnik. Statistical learning theory. Wiley New York, 1998.
+[42] R. T. Rockafellar. Convex Analysis. Princeton University Press, 1970.
+
+# 13 Enhancing the Accuracy and Fairness of Human Decision Making
+
+
+
+References
+[1] S. Barocas and A. D. Selbst. Big data´s disparate impact. California Law Review, 2016.
+[2] S. Boyd and L. Vandenberghe. Convex optimization. Cambridge university press, 2004.
+[3] S. Corbett-Davies, E. Pierson, A. Feller, S. Goel, and A. Huq. Algorithmic decision making
+and the cost of fairness. KDD, 2017.
+[4] C. Dwork, M. Hardt, T. Pitassi, O. Reingold, and R. Zemel. Fairness through awareness.
+In ITCS, 2012.
+[5] M. Feldman, S. A. Friedler, J. Moeller, C. Scheidegger, and S. Venkatasubramanian. Certifying
+and removing disparate impact. In KDD, 2015.
+[6] M. Hardt, E. Price, N. Srebro, et al. Equality of opportunity in supervised learning. In
+NIPS, 2016.
+[7] J. Kleinberg, H. Lakkaraju, J. Leskovec, J. Ludwig, and S. Mullainathan. Human decisions
+and machine predictions. The Quarterly Journal of Economics, 133(1):237–293, 2017.
+[8] J. Larson, S. Mattu, L. Kirchner, and J. Angwin.
+https://github.com/propublica/compas-analysis, 2016.
+[9] M. Mastrolilli and G. Stamoulis. Constrained matching problems in bipartite graphs. In
+ISCO, pages 344–355. Springer, 2012.
+[10] C. Mu˜noz, M. Smith, and D. Patil. Big Data: A Report on Algorithmic Systems, Opportunity,
+and Civil Rights. Executive Office of the President. The White House., 2016.
+
+[11] I. Osband, D. Russo, and B. Van Roy. (more) efficient reinforcement learning via posterior
+sampling. In NIPS, pages 3003–3011, 2013.
+[12] D. B. West et al. Introduction to graph theory, volume 2. Prentice hall Upper Saddle River,
+2001.
+[13] B. Zafar, I. Valera, M. Gomez-Rodriguez, and K. Gummadi. Fairness beyond disparate
+treatment & disparate impact: Learning classification without disparate mistreatment. In
+WWW, 2017.
+[14] B. Zafar, I. Valera, M. Gomez-Rodriguez, and K. Gummadi. Training fair classifiers. AIS-
+TATS, 2017.
+[15] B. Zafar, I. Valera, M. Gomez-Rodriguez, K. Gummadi, and A. Weller. From parity to
+preference: Learning with cost-effective notions of fairness. In NIPS, 2017.
+
+ # 14 Evolution of collective fairness in hybrid populations of humans and agents
+ 
+ MIT
+ USD
+ 
+Amazon Mechanical Turk (AMT) 
+
+Evolutionary Game Theory (EGT)
+ 
+Multiplayer version of the Ultimatum Game (MUG)
+
+Ultimatum Game (UG) 
+
+References
+Azaria, A.; Aumann, Y.; and Kraus, S. 2012. Automated
+strategies for determining rewards for human work. In
+AAAI-12, 1514–1521. AAAI Press.
+Blount, S. 1995. When social outcomes aren’t fair: The
+effect of causal attributions on preferences. Organ. Behav.
+Hum. Decis. Process 63(2):131–144.
+Brˆanzei, S.; Caragiannis, I.; Kurokawa, D.; and Procaccia,
+A. D. 2016. An algorithmic framework for strategic fair
+division. In AAAI-16, 418–424. AAAI Press.
+Camerer, C. 2003. Behavioral game theory: Experiments in
+strategic interaction. Princeton University Press.
+Chen, Y.; Lai, J. K.; Parkes, D. C.; and Procaccia, A. D.
+2010. Truth, justice, and cake cutting. In AAAI-10, 756–
+761. AAAI Press.
+Chevaleyre, Y.; Dunne, P. E.; Endriss, U.; Lang, J.; Lemaitre,
+M.; Maudet, N.; Padget, J.; Phelps, S.; Rodriguez-Aguilar,
+J. A.; and Sousa, P. 2006. Issues in multiagent resource
+allocation. Informatica 3–31.
+Chica, M.; Chiong, R.; Kirley, M.; and Ishibuchi, H. 2017.
+A networked n-player trust game and its evolutionary dynamics.
+IEEE Trans. Evol. Comput.
+Chiong, R., and Kirley, M. 2012. Effects of iterated interactions
+in multiplayer spatial evolutionary games. IEEE Trans.
+Evol. Comput. 16(4):537–555.
+Correia, F.; Mascarenhas, S.; Prada, R.; Melo, F. S.; and
+Paiva, A. 2018. Group-based emotions in teams of humans
+and robots. In HRI-18, 261–269. ACM.
+de Jong, S., and Tuyls, K. 2011. Human-inspired computational
+fairness. Auton. Agents. Multi. Agent. Syst. 22(1):103.
+de Jong, S.; Uyttendaele, S.; and Tuyls, K. 2008. Learning
+to reach agreement in a continuous ultimatum game. J. Artif.
+Intell. Res. 33:551–574.
+de Melo, C. M.; Marsella, S.; and Gratch, J. 2018. Social
+decisions and fairness change when people’s interests are
+represented by autonomous agents. Auton. Agents. Multi.
+Agent. Syst. 32(1):163–187.
+Fehr, E., and Fischbacher, U. 2003. The nature of human
+altruism. Nature 425(6960):785.
+Grimm, V.; Feicht, R.; Rau, H.; and Stephan, G. 2017. On
+the impact of quotas and decision rules in ultimatum collective
+bargaining. Eur. Econ. Rev. 100:175–192.
+G¨uth, W.; Schmittberger, R.; and Schwarze, B. 1982. An
+experimental analysis of ultimatum bargaining. J. Econ. Behav.
+Organ. 3(4):367–388.
+Han, T.; Pereira, L. M.; Martinez-Vaquero, L. A.; and
+Lenaerts, T. 2017. Centralized vs. personalized commitments
+and their influence on cooperation in group interactions.
+In AAAI-17, 2999–3005. AAAI Press.
+Han, T. A.; Pereira, L. M.; and Lenaerts, T. 2017. Evolution
+of commitment and level of participation in public goods
+games. Auton. Agents. Multi. Agent. Syst. 31(3):561–583.
+Jennings, N. R.; Faratin, P.; Lomuscio, A. R.; Parsons, S.;
+Wooldridge, M. J.; and Sierra, C. 2001. Automated negotiation:
+prospects, methods and challenges. Group. Decis.
+Negot. 10(2):199–215.
+Mason, W., and Suri, S. 2012. Conducting behavioral research
+on amazon’s mechanical turk. Behav. Res. Methods.
+44(1):1–23.
+Morales, J.; Wooldridge, M.; Rodr´ıguez-Aguilar, J. A.; and
+L´opez-S´anchez, M. 2018. Off-line synthesis of evolutionarily
+stable normative systems. Auton. Agents. Multi. Agent.
+Syst. 1–37.
+Nowak, M. A.; Page, K. M.; and Sigmund, K. 2000.
+Fairness versus reason in the ultimatum game. Science
+289(5485):1773–1775.
+Osborne, M. J. 2004. An introduction to game theory. Oxford
+University Press New York.
+Page, K. M.; Nowak, M. A.; and Sigmund, K. 2000. The
+spatial ultimatum game. Proc. R. Soc. Lond. B Biol. Sci.
+267(1458):2177–2182.
+Paiva, A.; Santos, F. P.; and Santos, F. C. 2018. Engineering
+pro-sociality with autonomous agents. In AAAI-18, 7994–
+7999. AAAI Press.
+Parkes, D. C., and Wellman, M. P. 2015. Economic reasoning
+and artificial intelligence. Science 349(6245):267–272.
+Rosenfeld, A., and Kraus, S. 2015. Providing arguments in
+discussions based on the prediction of human argumentative
+behavior. In AAAI-15, 1320–1327. AAAI Press.
+Sanfey, A. G.; Rilling, J. K.; Aronson, J. A.; Nystrom,
+L. E.; and Cohen, J. D. 2003. The neural basis of economic
+decision-making in the ultimatum game. Science
+300(5626):1755–1758.
+Santos, F. P.; Santos, F. C.; Paiva, A.; and Pacheco, J. M.
+2015. Evolutionary dynamics of group fairness. J. Theor.
+Biol. 378:96–102.
+Santos, F. P.; Santos, F. C.; Melo, F. S.; Paiva, A.; and
+Pacheco, J. M. 2016. Dynamics of fairness in groups of
+autonomous learning agents. In AAMAS 2016, Workshops
+Best Papers, 107–126. Springer, Cham.
+Santos, F. P.; Pacheco, J. M.; and Santos, F. C. 2018. Social
+norms of cooperation with costly reputation building. In
+AAAI-18, 4727–4734. AAAI Press.
+Segal-Halevi, E.; Hassidim, A.; and Aumann, Y. 2015.
+Envy-free cake-cutting in two dimensions. In AAAI-15,
+1021–1028. AAAI Press.
+Shirado, H., and Christakis, N. A. 2017. Locally noisy autonomous
+agents improve global human coordination in network
+experiments. Nature 545(7654):370.
+Takesue, H.; Ozawa, A.; and Morikawa, S. 2017. Evolution
+of favoritism and group fairness in a co-evolving threeperson
+ultimatum game. EPL 118(4):48002.
+Traulsen, A.; Nowak, M. A.; and Pacheco, J. M. 2006.
+Stochastic dynamics of invasion and fixation. Phys. Rev. E
+74(1):011909.
+Van Segbroeck, S.; Pacheco, J. M.; Lenaerts, T.; and Santos,
+F. C. 2012. Emergence of fairness in repeated group
+interactions. Phys. Rev. Lett. 108(15):158104.
+Weibull, J. W. 1997. Evolutionary game theory. MIT press.
