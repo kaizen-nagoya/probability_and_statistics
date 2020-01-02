@@ -2463,3 +2463,610 @@ Woodworth, B., Gunasekar, S., Ohannessian, M. I., and
 Srebro, N. Learning non-discriminatory predictors. In
 Conference on Learning Theory (COLT), pp. 1920–1953,
 2017.
+
+#21 Focal Loss for Dense Object Detection
+
+COCO
+HOG
+SSD
+YOLO
+
+cross entropy (CE) 
+Focal Loss (FL)
+Feature Pyramid Network (FPN)
+online hard example mining (OHEM)
+
+Facebook AI Research (FAIR)
+
+References
+[1] S. Bell, C. L. Zitnick, K. Bala, and R. Girshick. Insideoutside
+net: Detecting objects in context with skip pooling
+and recurrent neural networks. In CVPR, 2016. 6
+[2] S. R. Bulo, G. Neuhold, and P. Kontschieder. Loss maxpooling
+for semantic image segmentation. In CVPR, 2017.
+3
+[3] J. Dai, Y. Li, K. He, and J. Sun. R-FCN: Object detection via
+region-based fully convolutional networks. In NIPS, 2016. 1
+[4] N. Dalal and B. Triggs. Histograms of oriented gradients for
+human detection. In CVPR, 2005. 2
+[5] P. Doll´ar, Z. Tu, P. Perona, and S. Belongie. Integral channel
+features. In BMVC, 2009. 2, 3
+[6] D. Erhan, C. Szegedy, A. Toshev, and D. Anguelov. Scalable
+object detection using deep neural networks. In CVPR, 2014.
+2
+[7] M. Everingham, L. Van Gool, C. K. Williams, J. Winn, and
+A. Zisserman. The PASCAL Visual Object Classes (VOC)
+Challenge. IJCV, 2010. 2
+[8] P. F. Felzenszwalb, R. B. Girshick, and D. McAllester. Cascade
+object detection with deformable part models. In CVPR,
+2010. 2, 3
+[9] C.-Y. Fu,W. Liu, A. Ranga, A. Tyagi, and A. C. Berg. DSSD:
+Deconvolutional single shot detector. arXiv:1701.06659,
+2016. 1, 2, 8
+[10] R. Girshick. Fast R-CNN. In ICCV, 2015. 1, 2, 4, 6, 8
+[11] R. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich feature
+hierarchies for accurate object detection and semantic
+segmentation. In CVPR, 2014. 1, 2, 5
+[12] R. Girshick, I. Radosavovic, G. Gkioxari, P. Doll´ar,
+and K. He. Detectron. https://github.com/
+facebookresearch/detectron, 2018. 8
+[13] T. Hastie, R. Tibshirani, and J. Friedman. The elements of
+statistical learning. Springer series in statistics Springer,
+Berlin, 2008. 3, 7
+[14] K. He, G. Gkioxari, P. Doll´ar, and R. Girshick. Mask RCNN.
+In ICCV, 2017. 1, 2, 4
+[15] K. He, X. Zhang, S. Ren, and J. Sun. Spatial pyramid pooling
+in deep convolutional networks for visual recognition. In
+ECCV. 2014. 2
+[16] K. He, X. Zhang, S. Ren, and J. Sun. Deep residual learning
+for image recognition. In CVPR, 2016. 2, 4, 5, 6, 8
+[17] J. Huang, V. Rathod, C. Sun, M. Zhu, A. Korattikara,
+A. Fathi, I. Fischer, Z. Wojna, Y. Song, S. Guadarrama, and
+K. Murphy. Speed/accuracy trade-offs for modern convolutional
+object detectors. In CVPR, 2017. 2, 8
+[18] A. Krizhevsky, I. Sutskever, and G. Hinton. ImageNet classification
+with deep convolutional neural networks. In NIPS,
+2012. 2
+[19] Y. LeCun, B. Boser, J. S. Denker, D. Henderson, R. E.
+Howard, W. Hubbard, and L. D. Jackel. Backpropagation
+applied to handwritten zip code recognition. Neural computation,
+1989. 2
+[20] T.-Y. Lin, P. Doll´ar, R. Girshick, K. He, B. Hariharan, and
+S. Belongie. Feature pyramid networks for object detection.
+In CVPR, 2017. 1, 2, 4, 5, 6, 8
+[21] T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan,
+P. Doll´ar, and C. L. Zitnick. Microsoft COCO: Common
+objects in context. In ECCV, 2014. 1, 6
+[22] W. Liu, D. Anguelov, D. Erhan, C. Szegedy, and S. Reed.
+SSD: Single shot multibox detector. In ECCV, 2016. 1, 2, 3,
+6, 7, 8
+[23] J. Long, E. Shelhamer, and T. Darrell. Fully convolutional
+networks for semantic segmentation. In CVPR, 2015. 4
+[24] P. O. Pinheiro, R. Collobert, and P. Dollar. Learning to segment
+object candidates. In NIPS, 2015. 2, 4
+[25] P. O. Pinheiro, T.-Y. Lin, R. Collobert, and P. Doll´ar. Learning
+to refine object segments. In ECCV, 2016. 2
+[26] J. Redmon, S. Divvala, R. Girshick, and A. Farhadi. You
+only look once: Unified, real-time object detection. In
+CVPR, 2016. 1, 2
+[27] J. Redmon and A. Farhadi. YOLO9000: Better, faster,
+stronger. In CVPR, 2017. 1, 2, 8
+[28] S. Ren, K. He, R. Girshick, and J. Sun. Faster R-CNN: Towards
+real-time object detection with region proposal networks.
+In NIPS, 2015. 1, 2, 4, 5, 8
+[29] H. Rowley, S. Baluja, and T. Kanade. Human face detection
+in visual scenes. Technical Report CMU-CS-95-158R,
+Carnegie Mellon University, 1995. 2
+[30] P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus,
+and Y. LeCun. Overfeat: Integrated recognition, localization
+and detection using convolutional networks. In ICLR, 2014.
+2
+[31] A. Shrivastava, A. Gupta, and R. Girshick. Training regionbased
+object detectors with online hard example mining. In
+CVPR, 2016. 2, 3, 6, 7
+[32] A. Shrivastava, R. Sukthankar, J. Malik, and A. Gupta. Beyond
+skip connections: Top-down modulation for object detection.
+arXiv:1612.06851, 2016. 2, 8
+[33] K.-K. Sung and T. Poggio. Learning and Example Selection
+for Object and Pattern Detection. In MIT A.I. Memo No.
+1521, 1994. 2, 3
+[34] C. Szegedy, S. Ioffe, V. Vanhoucke, and A. A. Alemi.
+Inception-v4, inception-resnet and the impact of residual
+connections on learning. In AAAI Conference on Artificial
+Intelligence, 2017. 8
+[35] J. R. Uijlings, K. E. van de Sande, T. Gevers, and A. W.
+Smeulders. Selective search for object recognition. IJCV,
+2013. 2, 4
+[36] R. Vaillant, C. Monrocq, and Y. LeCun. Original approach
+for the localisation of objects in images. IEE Proc. on Vision,
+Image, and Signal Processing, 1994. 2
+[37] P. Viola and M. Jones. Rapid object detection using a boosted
+cascade of simple features. In CVPR, 2001. 2, 3
+[38] S. Xie, R. Girshick, P. Doll´ar, Z. Tu, and K. He. Aggregated
+residual transformations for deep neural networks. In CVPR,
+2017. 8
+[39] C. L. Zitnick and P. Doll´ar. Edge boxes: Locating object
+proposals from edges. In ECCV, 2014. 2
+
+#22 Generative Adversarial Minority Oversampling
+
+Conditional Transient Mapping Unit (cTMU)
+deep oversampling framework (DOS)
+Generative Adversarial Minority Oversampling (GAMO)
+Generative adversarial networks (GANs)
+
+References
+[1] S. Ando and C. Y. Huang. Deep over-sampling framework
+for classifying imbalanced data. In Machine Learning
+and Knowledge Discovery in Databases, pages 770–785.
+Springer International Publishing, 2017. 2
+[2] S. Barua, M. M. Islam, X. Yao, and K. Murase. Mwmote–
+majority weighted minority oversampling technique for imbalanced
+data set learning. IEEE Transactions on Knowledge
+and Data Engineering, 26(2):405–425, 2014. 2
+[3] D. Berthelot, T. Schumm, and L. Metz. Began: boundary
+equilibrium generative adversarial networks. arXiv preprint
+arXiv:1703.10717, 2017. 8
+[4] P. Branco, L. Torgo, and R. P. Ribeiro. A survey of predictive
+modeling on imbalanced domains. ACM Computing Surveys
+(CSUR), 49(2):31, 2016. 1, 5
+[5] M. Buda, A. Maki, and M. A. Mazurowski. A systematic
+study of the class imbalance problem in convolutional neural
+networks. Neural Networks, 106:249–259, 2018. 1
+[6] S. R. Bulo, G. Neuhold, and P. Kontschieder. Loss maxpooling
+for semantic image segmentation. In Proceedings
+of the IEEE Conference on Computer Vision and Pattern
+Recognition, pages 2126–2135, 2017. 1
+[7] C. Bunkhumpornpat, K. Sinapiromsaran, and C. Lursinsap.
+Safe-level-smote: Safe-level-synthetic minority oversampling
+technique for handling the class imbalanced problem.
+In Advances in Knowledge Discovery and Data Mining,
+pages 475–482, 2009. 2
+[8] N. V. Chawla, K. W. Bowyer, L. O. Hall, and W. P.
+Kegelmeyer. Smote: synthetic minority over-sampling technique.
+Journal of artificial intelligence research, 16:321–
+357, 2002. 2
+[9] N. V. Chawla, A. Lazarevic, L. O. Hall, and K. W. Bowyer.
+Smoteboost: Improving prediction of the minority class in
+boosting. In Knowledge Discovery in Databases: PKDD
+2003, pages 107–119, 2003. 2
+[10] Y.-A. Chung, H.-T. Lin, and S.-W. Yang. Cost-aware pretraining
+for multiclass cost-sensitive deep learning. In Proceedings
+of the Twenty-Fifth International Joint Conference
+on Artificial Intelligence, IJCAI’16, pages 1411–1417.
+AAAI Press, 2016. 1
+[11] S. Das, S. Datta, and B. B. Chaudhuri. Handling data irregularities
+in classification: Foundations, trends, and future
+challenges. Pattern Recognition, 81:674–693, 2018. 1
+[12] Q. Dong, S. Gong, and X. Zhu. Imbalanced deep learning by
+minority class incremental rectification. IEEE Transactions
+on Pattern Analysis and Machine Intelligence, 2018. 1
+[13] G. Douzas and F. Bacao. Effective data generation for imbalanced
+learning using conditional generative adversarial networks.
+Expert Systems with applications, 91:464–471, 2018.
+2
+[14] A. Fern´andez, S. Garcia, F. Herrera, and N. V. Chawla.
+Smote for learning from imbalanced data: Progress and challenges,
+marking the 15-year anniversary. Journal of Artificial
+Intelligence Research, 61:863–905, 2018. 2
+[15] I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu,
+D.Warde-Farley, S. Ozair, A. Courville, and Y. Bengio. Generative
+adversarial nets. In Advances in neural information
+processing systems, pages 2672–2680, 2014. 2
+[16] S. Gurumurthy, R. Kiran Sarvadevabhatla, and
+R. Venkatesh Babu. Deligan: Generative adversarial
+networks for diverse and limited data. In Proceedings
+of the IEEE Conference on Computer Vision and Pattern
+Recognition, pages 166–174, 2017. 9
+[17] H. Han, W.-Y. Wang, and B.-H. Mao. Borderline-smote: A
+new over-sampling method in imbalanced data sets learning.
+In Advances in Intelligent Computing, pages 878–887, 2005.
+2
+[18] H. He, Y. Bai, E. A. Garcia, and S. Li. ADASYN: Adaptive
+synthetic sampling approach for imbalanced learning.
+In IEEE International Joint Conference on Neural Networks,
+pages 1322–1328, 2008. 2
+[19] H. He and E. A. Garcia. Learning from imbalanced data.
+IEEE Transactions on Knowledge and Data Engineering,
+21(9):1263–1284, 2009. 1
+[20] M. Heusel, H. Ramsauer, T. Unterthiner, B. Nessler, and
+S. Hochreiter. Gans trained by a two time-scale update rule
+converge to a local nash equilibrium. In Advances in Neural
+Information Processing Systems 30, pages 6626–6637, 2017.
+
+[21] C. Huang, Y. Li, C. Change Loy, and X. Tang. Learning
+deep representation for imbalanced classification. In Proceedings
+of the IEEE Conference on Computer Vision and
+Pattern Recognition, pages 5375–5384, 2016. 1, 5
+[22] S. H. Khan, M. Hayat, M. Bennamoun, F. A. Sohel, and
+R. Togneri. Cost-sensitive learning of deep feature representations
+from imbalanced data. IEEE Transactions on Neural
+Networks and Learning Systems, 29(8):3573–3587, 2018. 1
+[23] D. P. Kingma and M. Welling. Auto-encoding variational
+bayes. arXiv preprint arXiv:1312.6114, 2013. 8
+[24] B. Krawczyk. Learning from imbalanced data: open challenges
+and future directions. Progress in Artificial Intelligence,
+5(4):221–232, 2016. 1
+[25] A. Krizhevsky. Learning multiple layers of features from tiny
+images. Technical Report TR-2009, University of Toronto,
+2009. 5
+[26] M. Kubat, S. Matwin, et al. Addressing the curse of imbalanced
+training sets: one-sided selection. In Icml, volume 97,
+pages 179–186, 1997. 5
+[27] A. Kumar, P. Sattigeri, and T. Fletcher. Semi-supervised
+learning with gans: Manifold invariance with improved inference.
+In Advances in Neural Information Processing Systems,
+pages 5534–5544, 2017. 2
+[28] Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. Gradientbased
+learning applied to document recognition. Proceedings
+of the IEEE, 86(11):2278–2324, 1998. 5
+[29] M. Lin, K. Tang, and X. Yao. Dynamic sampling approach to
+training neural networks for multiclass imbalance classification.
+IEEE Transactions on Neural Networks and Learning
+Systems, 24(4):647–660, 2013. 2
+[30] T. Lin, P. Goyal, R. Girshick, K. He, and P. Dollr. Focal
+loss for dense object detection. In 2017 IEEE International
+Conference on Computer Vision (ICCV), pages 2999–3007.
+IEEE, 2017. 1
+[31] X. Mao, Q. Li, H. Xie, R. Y. Lau, Z.Wang, and S. Paul Smolley.
+Least squares generative adversarial networks. In Proceedings
+of the IEEE International Conference on Computer
+Vision, pages 2794–2802, 2017. 5, 7
+[32] M. A. Mazurowski, P. A. Habas, J. M. Zurada, J. Y. Lo, J. A.
+Baker, and G. D. Tourassi. Training neural network classifiers
+for medical decision making: The effects of imbalanced
+datasets on classification performance. Neural networks,
+21(2-3):427–436, 2008. 1
+[33] M. Mirza and S. Osindero. Conditional generative adversarial
+nets. arXiv preprint arXiv:1411.1784, 2014. 2
+[34] Y. Netzer, T.Wang, A. Coates, A. Bissacco, B.Wu, and A. Y.
+Ng. Reading digits in natural images with unsupervised feature
+learning. In NIPS workshop on deep learning and unsupervised
+feature learning, page 5, 2011. 5
+[35] A. Odena, C. Olah, and J. Shlens. Conditional image synthesis
+with auxiliary classifier gans. In Proceedings of the 34th
+International Conference on Machine Learning-Volume 70,
+pages 2642–2651. JMLR. org, 2017. 2
+[36] A. Radford, L. Metz, and S. Chintala. Unsupervised representation
+learning with deep convolutional generative adversarial
+networks. arXiv preprint arXiv:1511.06434, 2015. 2
+[37] D. J. Rezende, S. Mohamed, and D. Wierstra. Stochastic
+backpropagation and approximate inference in deep generative
+models. arXiv preprint arXiv:1401.4082, 2014. 8
+[38] T. Salimans, I. Goodfellow,W. Zaremba, V. Cheung, A. Radford,
+and X. Chen. Improved techniques for training gans. In
+Advances in neural information processing systems, pages
+2234–2242, 2016. 2
+[39] S. Santurkar, L. Schmidt, and A. Madry. A classificationbased
+study of covariate shift in gan distributions. In International
+Conference on Machine Learning, pages 4487–4496,
+2018. 2
+[40] M. Sokolova and G. Lapalme. A systematic analysis of performance
+measures for classification tasks. Information Processing
+& Management, 45(4):427 – 437, 2009. 5
+[41] J. T. Springenberg. Unsupervised and semi-supervised learning
+with categorical generative adversarial networks. arXiv
+preprint arXiv:1511.06390, 2015. 2
+[42] A. Srivastava, L. Valkov, C. Russell, M. U. Gutmann, and
+C. Sutton. Veegan: Reducing mode collapse in gans using
+implicit variational learning. In Advances in Neural Information
+Processing Systems 30, pages 3308–3318, 2017. 2
+[43] S. Wang, W. Liu, J. Wu, L. Cao, Q. Meng, and P. Kennedy.
+Training deep neural networks on imbalanced data sets. In
+2016 International Joint Conference on Neural Networks
+(IJCNN), pages 4368–4374. IEEE, 2016. 1
+[44] Y.-X.Wang, D. Ramanan, and M. Hebert. Learning to model
+the tail. In Advances in Neural Information Processing Systems,
+pages 7029–7039, 2017. 2, 5
+[45] C. Wu, L. Herranz, X. Liu, J. van de Weijer, B. Raducanu,
+et al. Memory replay gans: Learning to generate new categories
+without forgetting. In Advances in Neural Information
+Processing Systems, pages 5966–5976, 2018. 9
+[46] H. Xiao, K. Rasul, and R. Vollgraf. Fashion-mnist: a
+novel image dataset for benchmarking machine learning algorithms.
+arXiv preprint arXiv:1708.07747, 2017. 5
+[47] J. Xiao, J. Hays, K. A. Ehinger, A. Oliva, and A. Torralba.
+Sun database: Large-scale scene recognition from abbey to
+zoo. In Computer vision and pattern recognition (CVPR),
+2010 IEEE conference on, pages 3485–3492, 2010. 5
+[48] S. Xie and Z. Tu. Holistically-nested edge detection. In Proceedings
+of the IEEE international conference on computer
+vision, pages 1395–1403, 2015. 1
+[49] S. Xie and Z. Tu. Holistically-nested edge detection. International
+Journal of Computer Vision, 125(1-3):3–18, 2017.
+
+[50] Y. Yan, M. Chen, M. Shyu, and S. Chen. Deep learning for
+imbalanced multimedia data classification. In 2015 IEEE
+International Symposium on Multimedia (ISM), pages 483–
+488. IEEE, 2015. 1
+[51] F. Yu, A. Seff, Y. Zhang, S. Song, T. Funkhouser, and
+J. Xiao. Lsun: Construction of a large-scale image dataset
+using deep learning with humans in the loop. arXiv preprint
+arXiv:1506.03365, 2015. 5
+
+#23 Group Fairness for Indivisible Goods Allocation
+
+GF1A  
+GF1B 
+
+References
+Agarwal, A.; Beygelzimer, A.; Dud´ık, M.; Langford, J.; and
+Wallach, H. 2018. A reductions approach to fair classification.
+In Proc. of the 35th International Conference on
+Machine Learning (ICML).
+Aleksandrov, M., and Walsh, T. 2018. Group envy freeness
+and group pareto efficiency in fair division with indivisible
+items. In Proc. of the 41st German Conference on AI (KI).
+Babaioff, M.; Nisan, N.; and Talgam-Cohen, I. 2017. Competitive
+equilibria with indivisible goods and generic budgets.
+CoRR arXiv:1703.08150.
+Barman, S.; Biswas, A.; Krishnamurthy, S.; and Narahari,
+Y. 2018. Groupwise maximin fair allocation of indivisible
+goods. In Proc. of the 32nd AAAI Conference on Artificial
+Intelligence (AAAI).
+Barman, S.; Krishnamurthy, S. K.; and Vaish, R. 2018. Finding
+fair and efficient allocations. In Proc. of the 19th ACM
+Conference on Economics and Computation (EC).
+Berliant, M.; Thomson, W.; and Dunz, K. 1992. On the fair
+division of a heterogeneous commodity. Journal of Mathematical
+Economics 21(3):201–216.
+Budish, E. 2011. The combinatorial assignment problem:
+Approximate competitive equilibrium from equal incomes.
+Journal of Political Economy 119(6):1061–1103.
+Calders, T., and Verwer, S. 2010. Three naive Bayes approaches
+for discrimination-free classification. Data Mining
+and Knowledge Discovery 21(2):277–292.
+Caragiannis, I.; Kurokawa, D.; Moulin, H.; Procaccia, A. D.;
+Shah, N.; and Wang, J. 2016. The unreasonable fairness of
+maximum Nash welfare. In Proc. of the 17th ACM Conference
+on Economics and Computation (EC).
+Conitzer, V.; Freeman, R.; and Shah, N. 2017. Fair public
+decision making. In Proc. of the 18th ACM Conference on
+Economics and Computation (EC).
+Fain, B.; Goel, A.; and Munagala, K. 2016. The core of
+the participatory budgeting problem. In Proc. of the 12th
+Conference on Web and Internet Economics (WINE).
+Fain, B.; Munagala, K.; and Shah, N. 2018. Fair allocation
+of indivisible public goods. In Proc. of the 19th ACM
+Conference on Economics and Computation (EC).
+Foley, D. 1967. Resource allocation and the public sector.
+Yale Economics Essays 7:45–98.
+Hardt, M.; Price, E.; and Srebro, N. 2016. Equality of opportunity
+in supervised learning. In Advances in Neural Information
+Processing Systems 29.
+Hebert-Johnson, U.; Kim, M.; Reingold, O.; and Rothblum,
+G. 2018. Multicalibration: Calibration for the
+(computationally-identifiable) masses. In Proc. of the 35th
+International Conference on Machine Learning (ICML).
+Husseinov, F. 2011. A theory of a heterogeneous divisible
+commodity exchange economy. Journal of Mathematical
+Economics 47(1):54–59.
+Kamiran, F., and Calders, T. 2012. Data preprocessing techniques
+for classification without discrimination. Knowledge
+and Information Systems 33(1):1–33.
+Kearns, M.; Neel, S.; Roth, A.; and Wu, Z. S. 2018. Preventing
+fairness gerrymandering: Auditing and learning for
+subgroup fairness. In Proc. of the 35th International Conference
+on Machine Learning (ICML).
+Kleinberg, J.; Mullainathan, S.; and Raghavan, M. 2017. Inherent
+trade-offs in the fair determination of risk scores. In
+Proc. of the 8th Innovations in Theoretical Computer Science
+Conference (ITCS).
+Lipton, R. J.; Markakis, E.; Mossel, E.; and Saberi, A. 2004.
+On approximately fair allocations of indivisible goods. In
+Proc. of the 6th ACM Conf. on Electronic Commerce (EC).
+Manurangsi, P., and Suksompong, W. 2017. Asymptotic
+existence of fair divisions for groups. Mathematical Social
+Sciences 89:100–108.
+Segal-Halevi, E., and Nitzan, S. 2015. Fair cake-cutting
+among families. CoRR arXiv:1510.03903.
+Segal-Halevi, E., and Suksompong, W. 2018. Democratic
+fair allocation of indivisible goods. In Proc. of the 27th International
+Joint Conf. on Artificial Intelligence (IJCAI).
+Segal-Halevi, E., and Sziklai, B. 2018. Monotonicity and
+competitive equilibrium in cake-cutting. Economic Theory
+1–39.
+Steinhaus, H. 1948. The problem of fair division. Econometrica
+16:101–104.
+Suksompong, W. 2018. Approximate maximin shares for
+groups of agents. Mathematical Social Sciences 92:40–47.
+Todo, T.; Li, R.; Hu, X.; Mouri, T.; Iwasaki, A.; and Yokoo,
+M. 2011. Generalizing envy-freeness toward group of
+agents. In Proc. of the 22nd International Joint Conf. on
+Artificial Intelligence (IJCAI).
+Zhang, Z., and Neill, D. B. 2016. Identifying significant
+predictive bias in classifiers. CoRR arXiv:1611.08292.
+
+#24 Imperceptible Adversarial Attacks on Tabular Data
+
+FGSM
+area under the ROC curve (AUC) 
+Mutual Information-based Fair Representations (MIFR)
+
+References
+Ian Goodfellow, Jonathon Shlens, and Christian Szegedy. Explaining and harnessing adversarial
+examples. 2015. URL http://arxiv.org/abs/1412.6572.
+Battista Biggio, Igino Corona, Davide Maiorca, Blaine Nelson, Nedim Šrndi´c, Pavel Laskov, Giorgio
+Giacinto, and Fabio Roli. Evasion attacks against machine learning at test time. In Hendrik
+Blockeel, Kristian Kersting, Siegfried Nijssen, and Filip Železný, editors, Machine Learning and
+Knowledge Discovery in Databases, 2013.
+Alexey Kurakin, Ian J. Goodfellow, and Samy Bengio. Adversarial machine learning at scale. ICLR
+2017, 2017.
+Nicholas Carlini and David A. Wagner. Adversarial examples are not easily detected: Bypassing ten
+detection methods. 10th ACM Workshop on Artificial Intelligence and Security, 2017.
+Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow,
+and Rob Fergus. Intriguing properties of neural networks. In International Conference on Learning
+Representations, 2014.
+Danny Karmon, Daniel Zoran, and Yoav Goldberg. Lavan: Localized and visible adversarial noise.
+CoRR, 2018.
+Tom B. Brown, Dandelion Mané, Aurko Roy, Martín Abadi, and Justin Gilmer. Adversarial patch.
+CoRR, 2017.
+Mahmood Sharif, Lujo Bauer, and Michael K. Reiter. On the suitability of lp-norms for creating and
+preventing adversarial examples. IEEE Conference on Computer Vision and Pattern Recognition
+Workshops, 2018.
+Dheeru Dua and Casey Graff. UCI machine learning repository, 2017.
+I-Cheng Yeh and Che-hui Lien. The comparisons of data mining techniques for the predictive
+accuracy of probability of default of credit card clients. Expert Systems with Applications, 2009.
+Wendy Kan. Lending club loan data, version 1, 2019. URL https://www.kaggle.com/wendykan/
+lending-club-loan-data.
+Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, and Pascal Frossard. Deepfool: a simple and
+accurate method to fool deep neural networks. IEEE conference on computer vision and pattern
+recognition, 2015.
+N. Papernot, P. McDaniel, I. Goodfellow, S. Jha, Z. Berkay Celik, and A. Swami. Practical Black-Box
+Attacks against Machine Learning. 2017 ACM on Asia conference on computer and communications
+security, 2016.
+Y. Liu, X. Chen, C. Liu, and D. Song. Delving into Transferable Adversarial Examples and Black-box
+Attacks. CoRR, 2016.
+
+
+#25 Improving Fairness in Machine Learning Systems: What Do Industry Practitioners Need?
+
+Bibliography
+Alexander A Alemi, Ian Fischer, Joshua V Dillon, and
+Kevin Murphy. Deep variational information bottleneck.
+arXiv preprint arXiv:1612.00410, December
+2016.
+Alexander A Alemi, Ben Poole, Ian Fischer, Joshua V
+Dillon, Rif A Saurous, and Kevin Murphy. Fixing
+a broken ELBO. arXiv preprint arXiv:1711.00464,
+November 2017.
+T Calders, F Kamiran, and M Pechenizkiy. Building
+classifiers with independency constraints. In
+2009 IEEE International Conference on Data Mining
+Workshops, pages 13–18, December 2009. doi:
+10.1109/ICDMW.2009.83.
+Flavio P Calmon, Dennis Wei, Karthikeyan Natesan
+Ramamurthy, and Kush R Varshney. Optimized data
+Pre-Processing for discrimination prevention. arXiv
+preprint arXiv:1704.03354, April 2017.
+Xi Chen, Diederik P Kingma, Tim Salimans, Yan Duan,
+Prafulla Dhariwal, John Schulman, Ilya Sutskever,
+and Pieter Abbeel. Variational lossy autoencoder.
+arXiv preprint arXiv:1611.02731, November 2016.
+Alexandra Chouldechova. Fair prediction with disparate
+impact: A study of bias in recidivism prediction
+instruments. Big data, 5(2):153–163, June 2017.
+ISSN 2167-647X, 2167-6461. doi: 10.1089/big.2016.
+0047.
+Laurent Dinh, Jascha Sohl-Dickstein, and Samy Bengio.
+Density estimation using real NVP. arXiv preprint
+arXiv:1605.08803, May 2016.
+Harrison Edwards and Amos Storkey. Censoring representations
+with an adversary. arXiv preprint
+arXiv:1511.05897, November 2015.
+Stephan Eissman, Daniel Levy, Rui Shu, Stefan
+Bartzsch, and Stefano Ermon. Bayesian optimization
+and attribute adjustment. In Proc. 34th Conference
+on Uncertainty in Artificial Intelligence, 2018.
+Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza,
+Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron
+Courville, and Yoshua Bengio. Generative adversarial
+nets. In Advances in neural information processing
+systems, pages 2672–2680, 2014.
+Arthur Gretton, Karsten M Borgwardt, Malte Rasch,
+Bernhard Schölkopf, and Alex J Smola. A kernel
+method for the two-sample-problem. In Advances
+in neural information processing systems, pages 513–
+520, 2007.
+Aditya Grover, , and Stefano Ermon. Uncertainty autoencoders:
+Learning compressed representations via
+variational information maximization. In AISTATS,
+2019.
+Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent
+Dumoulin, and Aaron C Courville. Improved
+training of wasserstein gans. In Advances in Neural
+Information Processing Systems, pages 5769–5779,
+2017.
+Moritz Hardt, Eric Price, Nati Srebro, and Others.
+Equality of opportunity in supervised learning. In
+Advances in neural information processing systems,
+pages 3315–3323, 2016.
+Diederik P Kingma and Max Welling. Auto-
+Encoding variational bayes. arXiv preprint
+arXiv:1312.6114v10, December 2013.
+Diederik P Kingma, Tim Salimans, Rafal Jozefowicz,
+Xi Chen, Ilya Sutskever, and MaxWelling. Improving
+variational inference with inverse autoregressive flow.
+arXiv preprint arXiv:1606.04934, June 2016.
+Jon Kleinberg, Sendhil Mullainathan, and Manish
+Raghavan. Inherent Trade-Offs in the fair determination
+of risk scores. arXiv preprint arXiv:1609.05807,
+September 2016.
+Junpei Komiyama, Akiko Takeda, Junya Honda, and
+Hajime Shimao. Nonconvex optimization for regression
+with fairness constraints. In Jennifer Dy and Andreas
+Krause, editors, Proceedings of the 35th International
+Conference on Machine Learning, volume 80
+of Proceedings of Machine Learning Research, pages
+2742–2751, Stockholmsmässan, Stockholm Sweden,
+2018. PMLR.
+Christos Louizos, Kevin Swersky, Yujia Li, Max
+Welling, and Richard Zemel. The variational fair autoencoder.
+arXiv preprint arXiv:1511.00830, November
+2015.
+Christos Louizos, Uri Shalit, Joris M Mooij, David
+Sontag, Richard Zemel, and Max Welling. Causal
+effect inference with deep Latent-Variable models.
+In I Guyon, U V Luxburg, S Bengio, H Wallach,
+R Fergus, S Vishwanathan, and R Garnett, editors,
+Advances in Neural Information Processing Systems
+30, pages 6446–6456. Curran Associates, Inc., 2017.
+David Madras, Elliot Creager, Toniann Pitassi,
+and Richard Zemel. Learning adversarially fair
+and transferable representations. arXiv preprint
+arXiv:1802.06309, February 2018.
+Danilo Jimenez Rezende and Shakir Mohamed. Variational
+inference with normalizing flows. arXiv
+preprint arXiv:1505.05770, May 2015.
+Aaron van den Oord, Nal Kalchbrenner, and Koray
+Kavukcuoglu. Pixel recurrent neural networks. arXiv
+preprint arXiv:1601.06759, January 2016.
+Muhammad Bilal Zafar, Isabel Valera, Manuel Gomez
+Rodriguez, and Krishna P Gummadi. Learning fair
+classifiers. arXiv preprint arXiv:1507. 05259, 2015.
+Learning Controllable Fair Representations
+Rich Zemel, Yu Wu, Kevin Swersky, Toni Pitassi, and
+Cynthia Dwork. Learning fair representations. In International
+Conference on Machine Learning, pages
+325–333, February 2013.
+Shengjia Zhao, Jiaming Song, and Stefano Ermon.
+InfoVAE: Information maximizing variational autoencoders.
+arXiv preprint arXiv:1706.02262, June
+2017a.
+Shengjia Zhao, Jiaming Song, and Stefano Ermon. Towards
+deeper understanding of variational autoencoding
+models. arXiv preprint arXiv:1702.08658,
+February 2017b.
+Shengjia Zhao, Jiaming Song, and Stefano Ermon. A
+lagrangian perspective to latent variable generative
+models. Conference on Uncertainty in Artificial Intelligence,
+2018.
+Indre Zliobaite. On the relation between accuracy
+and fairness in binary classification. arXiv preprint
+arXiv:1505.05723, May 2015.
+
+#26 Large-Margin Softmax Loss for Convolutional Neural Networks
+#27 Learning Adversarially Fair and Transferable Representations
+#28 Learning Controllable Fair Representations
+#29 Learning Fair Representations
+#30 Learning to Model the Tail
+#31 Limitations of the Lipschits constant as a defense against adversarial examples
+#32 Max-margin Class Imbalanced Learning with Gaussian Affinity
+#33 mixup: Beyond Empirical Risk Minimization
+#34 On Learning Density Aware Embeddings
+#35 On the Legal Comparability of Fairness Definitions
+#36 One-network Adversarial Fairness
+#37 Online Learning with an Unknown Fairness Metric
+#38 Oversampling for Imbalanced Data via Optimal Transport
+#39 Practical Black-Box Attacks against Machine Learning
+#40 Predict Responsibly: Improving Fairness and Accuracy by Learning to Defer
+#41 PyTorch: An Imperative Style, High-Performance Deep Learning Library
+#42 Recovering from Biased Data: Can Fairness Constraints Improve Accuracy?
+#43 SphereFace: Deep Hypersphere Embedding for Face Recognition
+#44 Striking the Right Balance with Uncertainty
+#45 The Cost of Fairness in Binary Classification
+#46 The Limitations of Deep Learning in Adversarial Settings
+#47 Trainable Undersampling for Class-Imbalance Learning
+#48 Transfer of Machine Learning Fairness across Domains
+#49 Using Image Fairness Representations in Diversity-Based Re-ranking for Recommendations
+#50 Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning
