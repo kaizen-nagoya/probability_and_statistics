@@ -2920,6 +2920,9 @@ Attacks. CoRR, 2016.
 
 
 #25 Improving Fairness in Machine Learning Systems: What Do Industry Practitioners Need?
+NSF
+ONR
+AFOSR
 
 Bibliography
 Alexander A Alemi, Ian Fischer, Joshua V Dillon, and
