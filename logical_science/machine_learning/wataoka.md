@@ -4842,20 +4842,16 @@ ITCS 2017, January 9-11, 2017, Berkeley, CA, USA, pages 43:1–43:23, 2017.
 [16] Jon M. Kleinberg and Manish Raghavan. Selection Problems in the Presence of Implicit Bias.
 In 9th Innovations in Theoretical Computer Science Conference, ITCS 2018, January 11-14,
 2018, Cambridge, MA, USA, pages 33:1–33:17, 2018.
-[17] Himabindu Lakkaraju, Jon Kleinberg, Jure Leskovec, Jens Ludwig, and Sendhil Mullainathan.
-The Selective Labels Problem: Evaluating Algorithmic Predictions in the Presence of Unobservables.
-In Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge
-Discovery and Data Mining, pages 275–284. ACM, 2017.
+
+[17] Himabindu Lakkaraju, Jon Kleinberg, Jure Leskovec, Jens Ludwig, and Sendhil Mullainathan. The Selective Labels Problem: Evaluating Algorithmic Predictions in the Presence of Unobservables. In Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pages 275–284. ACM, 2017.
+
 [18] Kristian Lum and William Isaac. To predict and serve? Significance, 13(5):14–19, 2016.
-[19] Geoff Pleiss, Manish Raghavan, FelixWu, Jon Kleinberg, and Kilian QWeinberger. On Fairness
-and Calibration. In Advances in Neural Information Processing Systems, pages 5680–5689,
-2017.
-[20] Rashida Richardson, Jason Schultz, and Kate Crawford. Dirty Data, Bad Predictions: How
-Civil Rights Violations Impact Police Data, Predictive Policing Systems, and Justice. New York
-University Law Review Online, Forthcoming, 2019.
-[21] Samuel Yeom and Michael Carl Tschantz. Discriminative but Not Discriminatory: A Comparison
-of Fairness Definitions under Different Worldviews. arXiv preprint arXiv:1808.08619,
-2018.
+
+[19] Geoff Pleiss, Manish Raghavan, FelixWu, Jon Kleinberg, and Kilian QWeinberger. On Fairness and Calibration. In Advances in Neural Information Processing Systems, pages 5680–5689, 2017.
+
+[20] Rashida Richardson, Jason Schultz, and Kate Crawford. Dirty Data, Bad Predictions: How Civil Rights Violations Impact Police Data, Predictive Policing Systems, and Justice. New York University Law Review Online, Forthcoming, 2019.
+
+[21] Samuel Yeom and Michael Carl Tschantz. Discriminative but Not Discriminatory: A Comparison of Fairness Definitions under Different Worldviews. arXiv preprint arXiv:1808.08619, 2018.
 
 #43 SphereFace: Deep Hypersphere Embedding for Face Recognition
 
