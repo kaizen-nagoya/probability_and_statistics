@@ -1560,30 +1560,40 @@ autoencoders for domain adaptation. In ICML, pages 767{774, 2012.
 Qiang Chen, Junshi Huang, Rogerio Feris, Lisa M. Brown, Jian Dong, and Shuicheng Yan.
 Deep domain adaptation for describing people based on ne-grained clothing attributes.
 In CVPR, June 2015.
+
 S. Chopra, S. Balakrishnan, and R. Gopalan. Dlid: Deep learning for domain adaptation
 by interpolating between domains. In ICML Workshop on Challenges in Representation
 Learning, 2013.
+
 Dan Ciresan, Ueli Meier, Jonathan Masci, and Jurgen Schmidhuber. Multi-column deep
 neural network for trac sign classication. Neural Networks, 32:333{338, 2012.
+
 Corinna Cortes and Mehryar Mohri. Domain adaptation and sample bias correction theory
 and algorithm for regression. Theor. Comput. Sci., 519:103{126, 2014.
+
 Je Donahue, Yangqing Jia, Oriol Vinyals, Judy Homan, Ning Zhang, Eric Tzeng, and
 Trevor Darrell. Decaf: A deep convolutional activation feature for generic visual recognition.
 In ICML, 2014.
+
 John Duchi, Elad Hazan, and Yoram Singer. Adaptive subgradient methods for online
 learning and stochastic optimization. Technical report, EECS Department, University of
 California, Berkeley, Mar 2010.
+
 Rong-En Fan, Kai-Wei Chang, Cho-Jui Hsieh, Xiang-Rui Wang, and Chih-Jen Lin. LIBLINEAR:
 A library for large linear classication. Journal of Machine Learning Research,
 9:1871{1874, 2008.
+
 Basura Fernando, Amaury Habrard, Marc Sebban, and Tinne Tuytelaars. Unsupervised
 visual domain adaptation using subspace alignment. In ICCV, 2013.
+
 Yaroslav Ganin and Victor Lempitsky. Unsupervised domain adaptation by backpropagation.
 In ICML, pages 325{333, 2015. URL http://jmlr.org/proceedings/papers/
 v37/ganin15.html.
+
 Pascal Germain, Amaury Habrard, Francois Laviolette, and Emilie Morvant. A PACBayesian
 approach for domain adaptation with specialization to linear classiers. In
 ICML, pages 738{746, 2013.
+
 Xavier Glorot, Antoine Bordes, and Yoshua Bengio. Domain adaptation for large-scale
 sentiment classication: A deep learning approach. In ICML, pages 513{520, 2011.
 
@@ -1591,20 +1601,25 @@ Domain-Adversarial Neural Networks
 Boqing Gong, Yuan Shi, Fei Sha, and Kristen Grauman. Geodesic 
 ow kernel for unsupervised
 domain adaptation. In CVPR, pages 2066{2073, 2012.
+
 Boqing Gong, Kristen Grauman, and Fei Sha. Connecting the dots with landmarks: Discriminatively
 learning domain-invariant features for unsupervised domain adaptation. In
 ICML, pages 222{230, 2013.
+
 Shaogang Gong, Marco Cristani, Shuicheng Yan, and Chen Change Loy. Person re-
 identication. Springer, 2014.
+
 Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil
 Ozair, Aaron Courville, and Yoshua Bengio. Generative adversarial nets. In NIPS, 2014.
+
 Raghuraman Gopalan, Ruonan Li, and Rama Chellappa. Domain adaptation for object
 recognition: An unsupervised approach. In ICCV, pages 999{1006, 2011.
-Doug Gray, Shane Brennan, and Hai Tao. Evaluating appearance models for recognition,
-reacquisition, and tracking. In IEEE International Workshop on Performance Evaluation
-for Tracking and Surveillance, Rio de Janeiro, 2007.
+
+Doug Gray, Shane Brennan, and Hai Tao. Evaluating appearance models for recognition, reacquisition, and tracking. In IEEE International Workshop on Performance Evaluation for Tracking and Surveillance, Rio de Janeiro, 2007.http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.331.7285&rep=rep1&type=pdf
+
 Martin Hirzer, Csaba Beleznai, Peter M. Roth, and Horst Bischof. Person re-identication
 by descriptive and discriminative classication. In SCIA, 2011.
+
 Judy Homan, Eric Tzeng, Je Donahue, Yangqing Jia, Kate Saenko, and Trevor Darrell.
 One-shot adaptation of supervised deep convolutional models. CoRR, abs/1312.6204,
 2013. URL http://arxiv.org/abs/1312.6204.
@@ -1624,12 +1639,14 @@ convolutional neural networks. In NIPS, pages 1097{1105, 2012.
 Alexandre Lacoste, Francois Laviolette, and Mario Marchand. Bayesian comparison of
 machine learning algorithms on single and multiple datasets. In AISTATS, pages 665{
 675, 2012.
+
 Y. LeCun, L. Bottou, Y. Bengio, and P. Haner. Gradient-based learning applied to document
 recognition. Proceedings of the IEEE, 86(11):2278{2324, November 1998.
 
 Ganin, Ustinova, Ajakan, Germain, Larochelle, Laviolette, Marchand and Lempitsky
 Wei Li and Xiaogang Wang. Locally aligned feature transforms across views. In CVPR,
-pages 3594{3601, 2013.
+pages 3594{3601, 2013. https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Li_Locally_Aligned_Feature_2013_CVPR_paper.pdf
+
 Yujia Li, Kevin Swersky, and Richard Zemel. Unsupervised domain adaptation by domain
 invariant projection. In NIPS 2014 Workshop on Transfer and Multitask Learning, 2014.
 Joerg Liebelt and Cordelia Schmid. Multi-view object class detection with a 3d geometric
@@ -3049,13 +3066,927 @@ and fairness in binary classification. arXiv preprint
 arXiv:1505.05723, May 2015.
 
 #26 Large-Margin Softmax Loss for Convolutional Neural Networks
+
+CASIA
+LFW
+PCA
+
+References
+Asthana, Akshay, Zafeiriou, Stefanos, Cheng, Shiyang, and Pantic,
+Maja. Incremental face alignment in the wild. In CVPR,
+2014.
+Ding, Changxing and Tao, Dacheng. Robust face recognition
+via multimodal deep face representation. IEEE TMM, 17(11):
+2049–2058, 2015.
+Goodfellow, Ian J,Warde-Farley, David, Mirza, Mehdi, Courville,
+Aaron, and Bengio, Yoshua. Maxout networks. arXiv preprint
+arXiv:1302.4389, 2013.
+Hadsell, Raia, Chopra, Sumit, and LeCun, Yann. Dimensionality
+reduction by learning an invariant mapping. In CVPR, 2006.
+He, Kaiming, Zhang, Xiangyu, Ren, Shaoqing, and Sun, Jian.
+Deep residual learning for image recognition. arXiv preprint
+arXiv:1512.03385, 2015a.
+He, Kaiming, Zhang, Xiangyu, Ren, Shaoqing, and Sun, Jian.
+Delving deep into rectifiers: Surpassing human-level performance
+on imagenet classification. In ICCV, 2015b.
+Hinton, Geoffrey E, Srivastava, Nitish, Krizhevsky, Alex,
+Sutskever, Ilya, and Salakhutdinov, Ruslan R. Improving neural
+networks by preventing co-adaptation of feature detectors.
+arXiv preprint arXiv:1207.0580, 2012.
+Huang, Gary B, Ramesh, Manu, Berg, Tamara, and Learned-
+Miller, Erik. Labeled faces in the wild: A database for studying
+face recognition in unconstrained environments. Technical report,
+Technical Report, 2007.
+Ioffe, Sergey and Szegedy, Christian. Batch normalization: Accelerating
+deep network training by reducing internal covariate
+shift. In ICML, 2015.
+Jarrett, Kevin, Kavukcuoglu, Koray, Ranzato, Marc’Aurelio, and
+LeCun, Yann. What is the best multi-stage architecture for
+object recognition? In ICCV, 2009.
+Jia, Yangqing, Shelhamer, Evan, Donahue, Jeff, Karayev, Sergey,
+Long, Jonathan, Girshick, Ross, Guadarrama, Sergio, and Darrell,
+Trevor. Caffe: Convolutional architecture for fast feature
+embedding. arXiv preprint arXiv:1408.5093, 2014.
+Krizhevsky, Alex. Learning multiple layers of features from tiny
+images. Technical Report, 2009.
+Krizhevsky, Alex, Sutskever, Ilya, and Hinton, Geoffrey E. Imagenet
+classification with deep convolutional neural networks.
+In NIPS, 2012.
+LeCun, Yann, Cortes, Corinna, and Burges, Christopher JC. The
+mnist database of handwritten digits, 1998.
+Lee, Chen-Yu, Xie, Saining, Gallagher, Patrick, Zhang,
+Zhengyou, and Tu, Zhuowen. Deeply-supervised nets. In AISTATS,
+2015.
+Lee, Chen-Yu, Gallagher, Patrick W, and Tu, Zhuowen. Generalizing
+pooling functions in convolutional neural networks:
+Mixed, gated, and tree. In AISTATS, 2016.
+Liang, Ming and Hu, Xiaolin. Recurrent convolutional neural
+network for object recognition. In CVPR, 2015.
+Lin, Min, Chen, Qiang, and Yan, Shuicheng. Network in network.
+In ICLR, 2014.
+Nair, Vinod and Hinton, Geoffrey E. Rectified linear units improve
+restricted boltzmann machines. In ICML, 2010.
+Parkhi, Omkar M, Vedaldi, Andrea, and Zisserman, Andrew.
+Deep face recognition. In BMVC, 2015.
+Romero, Adriana, Ballas, Nicolas, Kahou, Samira Ebrahimi,
+Chassang, Antoine, Gatta, Carlo, and Bengio, Yoshua. Fitnets:
+Hints for thin deep nets. In ICLR, 2015.
+Russakovsky, Olga, Deng, Jia, Su, Hao, Krause, Jonathan,
+Satheesh, Sanjeev, Ma, Sean, Huang, Zhiheng, Karpathy, Andrej,
+Khosla, Aditya, Bernstein, Michael, et al. Imagenet large
+scale visual recognition challenge. IJCV, pp. 1–42, 2014.
+Schroff, Florian, Kalenichenko, Dmitry, and Philbin, James.
+Facenet: A unified embedding for face recognition and clustering.
+In CVPR, 2015.
+Sermanet, Pierre, Eigen, David, Zhang, Xiang, Mathieu, Micha¨el,
+Fergus, Rob, and LeCun, Yann. Overfeat: Integrated recognition,
+localization and detection using convolutional networks.
+ICLR, 2014.
+Simonyan, Karen and Zisserman, Andrew. Very deep convolutional
+networks for large-scale image recognition. arXiv
+preprint arXiv:1409.1556, 2014.
+Springenberg, Jost Tobias, Dosovitskiy, Alexey, Brox, Thomas,
+and Riedmiller, Martin. Striving for simplicity. In ICLR, 2015.
+Srivastava, Nitish, Hinton, Geoffrey, Krizhevsky, Alex, Sutskever,
+Ilya, and Salakhutdinov, Ruslan. Dropout: A simple way to
+prevent neural networks from overfitting. JMLR, 15(1):1929–
+1958, 2014.
+Stollenga, Marijn F, Masci, Jonathan, Gomez, Faustino, and
+Schmidhuber, J¨urgen. Deep networks with internal selective
+attention through feedback connections. In NIPS, 2014.
+Sun, Yi, Chen, Yuheng, Wang, Xiaogang, and Tang, Xiaoou.
+Deep learning face representation by joint identificationverification.
+In NIPS, 2014.
+Sun, Yi, Wang, Xiaogang, and Tang, Xiaoou. Deeply learned
+face representations are sparse, selective, and robust. In CVPR,
+2015.
+Szegedy, Christian, Liu, Wei, Jia, Yangqing, Sermanet, Pierre,
+Reed, Scott, Anguelov, Dragomir, Erhan, Dumitru, Vanhoucke,
+Vincent, and Rabinovich, Andrew. Going deeper with
+convolutions. In CVPR, 2015.
+Large-Margin Softmax Loss for Convolutional Neural Networks
+Taigman, Yaniv, Yang, Ming, Ranzato, Marc’Aurelio, and Wolf,
+Lars. Deepface: Closing the gap to human-level performance
+in face verification. In CVPR, 2014.
+Wan, Li, Zeiler, Matthew, Zhang, Sixin, Cun, Yann L, and Fergus,
+Rob. Regularization of neural networks using dropconnect. In
+ICML, 2013.
+Yi, Dong, Lei, Zhen, Liao, Shengcai, and Li, Stan Z.
+Learning face representation from scratch. arXiv preprint
+arXiv:1411.7923, 2014.
+Zeiler, Matthew D and Fergus, Rob. Stochastic pooling for
+regularization of deep convolutional neural networks. arXiv
+preprint arXiv:1301.3557, 2013.
+
 #27 Learning Adversarially Fair and Transferable Representations
+
+MLP
+LAFTR
+
+maximum mean discrepancy (MMD)
+Natural Sciences and Engineering Research Council of Canada (NSERC).
+primary condition group (PCG)
+
+References
+Bechavod, Y. and Ligett, K. Learning fair classifiers:
+A regularization-inspired approach. arXiv preprint
+arXiv:1707.00044, 2017.
+Beutel, A., Chen, J., Zhao, Z., and Chi, E. H. Data decisions
+and theoretical implications when adversarially learning
+fair representations. arXiv preprint arXiv:1707.00075,
+2017.
+Blitzer, J., McDonald, R., and Pereira, F. Domain adaptation
+with structural correspondence learning. In Proceedings
+of the 2006 conference on empirical methods in natural
+language processing, pp. 120–128. Association for
+Computational Linguistics, 2006.
+Calmon, F., Wei, D., Vinzamuri, B., Ramamurthy, K. N.,
+and Varshney, K. R. Optimized pre-processing for discrimination
+prevention. In Advances in Neural Information
+Processing Systems, pp. 3995–4004, 2017.
+Chouldechova, A. Fair prediction with disparate impact: A
+study of bias in recidivism prediction instruments. Big
+data, 5(2):153–163, 2017.
+Cover, T. M. and Thomas, J. A. Elements of information
+theory. John Wiley & Sons, 2012.
+Dwork, C., Hardt, M., Pitassi, T., Reingold, O., and Zemel,
+R. Fairness through awareness. In Proceedings of the 3rd
+innovations in theoretical computer science conference,
+pp. 214–226. ACM, 2012.
+Edwards, H. and Storkey, A. Censoring representations with
+an adversary. In International Conference on Learning
+Representations, 2016.
+Learning Adversarially Fair and Transferable Representations
+Ganin, Y., Ustinova, E., Ajakan, H., Germain, P., Larochelle,
+H., Laviolette, F., Marchand, M., and Lempitsky, V.
+Domain-adversarial training of neural networks. The
+Journal of Machine Learning Research, 17(1):2096–2030,
+2016.
+Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B.,
+Warde-Farley, D., Ozair, S., Courville, A., and Bengio,
+Y. Generative adversarial nets. In Advances in neural
+information processing systems, pp. 2672–2680, 2014.
+Gretton, A., Borgwardt, K. M., Rasch, M., Sch¨olkopf, B.,
+and Smola, A. J. A kernel method for the two-sampleproblem.
+In Advances in neural information processing
+systems, pp. 513–520, 2007.
+Gutmann, M. and Hyv¨arinen, A. Noise-contrastive estimation:
+A new estimation principle for unnormalized
+statistical models. In Proceedings of the Thirteenth International
+Conference on Artificial Intelligence and Statistics,
+pp. 297–304, 2010.
+Hajian, S., Domingo-Ferrer, J., Monreale, A., Pedreschi,
+D., and Giannotti, F. Discrimination-and privacy-aware
+patterns. Data Mining and Knowledge Discovery, 29(6):
+1733–1782, 2015.
+Hardt, M., Price, E., Srebro, N., et al. Equality of opportunity
+in supervised learning. In Advances in neural
+information processing systems, pp. 3315–3323, 2016.
+H´ebert-Johnson, U., Kim, M. P., Reingold, O., and Rothblum,
+G. N. Calibration for the (computationallyidentifiable)
+masses. In International Conference on
+Machine Learning, 2018.
+Hinton, G. E. and Salakhutdinov, R. R. Reducing the dimensionality
+of data with neural networks. science, 313
+(5786):504–507, 2006.
+Kamishima, T., Akaho, S., Asoh, H., and Sakuma, J.
+Fairness-aware classifier with prejudice remover regularizer.
+In Joint European Conference on Machine Learning
+and Knowledge Discovery in Databases, pp. 35–50.
+Springer, 2012.
+Kearns, M., Neel, S., Roth, A., and Wu, Z. S. Preventing
+fairness gerrymandering: Auditing and learning for subgroup
+fairness. In International Conference on Machine
+Learning, 2018.
+Kingma, D. and Ba, J. Adam: A method for stochastic
+optimization. In International Conference on Learning
+Representations, 2015.
+Kleinberg, J., Mullainathan, S., and Raghavan, M. Inherent
+trade-offs in the fair determination of risk scores. arXiv
+preprint arXiv:1609.05807, 2016.
+Louizos, C., Swersky, K., Li, Y., Welling, M., and Zemel, R.
+The variational fair autoencoder. 2016.
+Luc, P., Couprie, C., Chintala, S., and Verbeek, J. Semantic
+segmentation using adversarial networks. In NIPS
+Workshop on Adversarial Training, 2016.
+Madras, D., Pitassi, T., and Zemel, R. Predict responsibly:
+Increasing fairness by learning to defer. arXiv preprint
+arXiv:1711.06664, 2017.
+McNamara, D., Ong, C. S., and Williamson, R. C. Provably
+fair representations. arXiv preprint arXiv:1710.04394,
+2017.
+Odena, A. Semi-supervised learning with generative adversarial
+networks. arXiv preprint arXiv:1606.01583,
+2016.
+Pleiss, G., Raghavan, M., Wu, F., Kleinberg, J., and Weinberger,
+K. Q. On fairness and calibration. In Advances in
+Neural Information Processing Systems, pp. 5684–5693,
+2017.
+Salimans, T., Goodfellow, I., Zaremba,W., Cheung, V., Radford,
+A., and Chen, X. Improved techniques for training
+gans. In Advances in Neural Information Processing
+Systems, pp. 2234–2242, 2016.
+Schmidhuber, J. Learning factorial codes by predictability
+minimization. Neural Computation, 4(6):863–879, 1992.
+Zafar, M. B., Valera, I., Gomez Rodriguez, M., and Gummadi,
+K. P. Fairness beyond disparate treatment & disparate
+impact: Learning classification without disparate
+mistreatment. In Proceedings of the 26th International
+Conference on World Wide Web, pp. 1171–1180. InternationalWorldWideWeb
+Conferences Steering Committee,
+2017.
+Zemel, R., Wu, Y., Swersky, K., Pitassi, T., and Dwork, C.
+Learning fair representations. In International Conference
+on Machine Learning, pp. 325–333, 2013.
+Zhang, B. H., Lemoine, B., and Mitchell, M. Mitigating
+unwanted biases with adversarial learning. arXiv preprint
+arXiv:1801.07593, 2018.
+
 #28 Learning Controllable Fair Representations
+
+Mutual Information-based Fair Representations (MIFR).
+
+Bibliography
+Alexander A Alemi, Ian Fischer, Joshua V Dillon, and
+Kevin Murphy. Deep variational information bottleneck.
+arXiv preprint arXiv:1612.00410, December
+2016.
+Alexander A Alemi, Ben Poole, Ian Fischer, Joshua V
+Dillon, Rif A Saurous, and Kevin Murphy. Fixing
+a broken ELBO. arXiv preprint arXiv:1711.00464,
+November 2017.
+T Calders, F Kamiran, and M Pechenizkiy. Building
+classifiers with independency constraints. In
+2009 IEEE International Conference on Data Mining
+Workshops, pages 13–18, December 2009. doi:
+10.1109/ICDMW.2009.83.
+Flavio P Calmon, Dennis Wei, Karthikeyan Natesan
+Ramamurthy, and Kush R Varshney. Optimized data
+Pre-Processing for discrimination prevention. arXiv
+preprint arXiv:1704.03354, April 2017.
+Xi Chen, Diederik P Kingma, Tim Salimans, Yan Duan,
+Prafulla Dhariwal, John Schulman, Ilya Sutskever,
+and Pieter Abbeel. Variational lossy autoencoder.
+arXiv preprint arXiv:1611.02731, November 2016.
+Alexandra Chouldechova. Fair prediction with disparate
+impact: A study of bias in recidivism prediction
+instruments. Big data, 5(2):153–163, June 2017.
+ISSN 2167-647X, 2167-6461. doi: 10.1089/big.2016.
+0047.
+Laurent Dinh, Jascha Sohl-Dickstein, and Samy Bengio.
+Density estimation using real NVP. arXiv preprint
+arXiv:1605.08803, May 2016.
+Harrison Edwards and Amos Storkey. Censoring representations
+with an adversary. arXiv preprint
+arXiv:1511.05897, November 2015.
+Stephan Eissman, Daniel Levy, Rui Shu, Stefan
+Bartzsch, and Stefano Ermon. Bayesian optimization
+and attribute adjustment. In Proc. 34th Conference
+on Uncertainty in Artificial Intelligence, 2018.
+Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza,
+Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron
+Courville, and Yoshua Bengio. Generative adversarial
+nets. In Advances in neural information processing
+systems, pages 2672–2680, 2014.
+Arthur Gretton, Karsten M Borgwardt, Malte Rasch,
+Bernhard Schölkopf, and Alex J Smola. A kernel
+method for the two-sample-problem. In Advances
+in neural information processing systems, pages 513–
+520, 2007.
+Aditya Grover, , and Stefano Ermon. Uncertainty autoencoders:
+Learning compressed representations via
+variational information maximization. In AISTATS,
+2019.
+Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent
+Dumoulin, and Aaron C Courville. Improved
+training of wasserstein gans. In Advances in Neural
+Information Processing Systems, pages 5769–5779,
+2017.
+Moritz Hardt, Eric Price, Nati Srebro, and Others.
+Equality of opportunity in supervised learning. In
+Advances in neural information processing systems,
+pages 3315–3323, 2016.
+Diederik P Kingma and Max Welling. Auto-
+Encoding variational bayes. arXiv preprint
+arXiv:1312.6114v10, December 2013.
+Diederik P Kingma, Tim Salimans, Rafal Jozefowicz,
+Xi Chen, Ilya Sutskever, and MaxWelling. Improving
+variational inference with inverse autoregressive flow.
+arXiv preprint arXiv:1606.04934, June 2016.
+Jon Kleinberg, Sendhil Mullainathan, and Manish
+Raghavan. Inherent Trade-Offs in the fair determination
+of risk scores. arXiv preprint arXiv:1609.05807,
+September 2016.
+Junpei Komiyama, Akiko Takeda, Junya Honda, and
+Hajime Shimao. Nonconvex optimization for regression
+with fairness constraints. In Jennifer Dy and Andreas
+Krause, editors, Proceedings of the 35th International
+Conference on Machine Learning, volume 80
+of Proceedings of Machine Learning Research, pages
+2742–2751, Stockholmsmässan, Stockholm Sweden,
+2018. PMLR.
+Christos Louizos, Kevin Swersky, Yujia Li, Max
+Welling, and Richard Zemel. The variational fair autoencoder.
+arXiv preprint arXiv:1511.00830, November
+2015.
+Christos Louizos, Uri Shalit, Joris M Mooij, David
+Sontag, Richard Zemel, and Max Welling. Causal
+effect inference with deep Latent-Variable models.
+In I Guyon, U V Luxburg, S Bengio, H Wallach,
+R Fergus, S Vishwanathan, and R Garnett, editors,
+Advances in Neural Information Processing Systems
+30, pages 6446–6456. Curran Associates, Inc., 2017.
+David Madras, Elliot Creager, Toniann Pitassi,
+and Richard Zemel. Learning adversarially fair
+and transferable representations. arXiv preprint
+arXiv:1802.06309, February 2018.
+Danilo Jimenez Rezende and Shakir Mohamed. Variational
+inference with normalizing flows. arXiv
+preprint arXiv:1505.05770, May 2015.
+Aaron van den Oord, Nal Kalchbrenner, and Koray
+Kavukcuoglu. Pixel recurrent neural networks. arXiv
+preprint arXiv:1601.06759, January 2016.
+Muhammad Bilal Zafar, Isabel Valera, Manuel Gomez
+Rodriguez, and Krishna P Gummadi. Learning fair
+classifiers. arXiv preprint arXiv:1507. 05259, 2015.
+Learning Controllable Fair Representations
+Rich Zemel, Yu Wu, Kevin Swersky, Toni Pitassi, and
+Cynthia Dwork. Learning fair representations. In International
+Conference on Machine Learning, pages
+325–333, February 2013.
+Shengjia Zhao, Jiaming Song, and Stefano Ermon.
+InfoVAE: Information maximizing variational autoencoders.
+arXiv preprint arXiv:1706.02262, June
+2017a.
+Shengjia Zhao, Jiaming Song, and Stefano Ermon. Towards
+deeper understanding of variational autoencoding
+models. arXiv preprint arXiv:1702.08658,
+February 2017b.
+Shengjia Zhao, Jiaming Song, and Stefano Ermon. A
+lagrangian perspective to latent variable generative
+models. Conference on Uncertainty in Artificial Intelligence,
+2018.
+Indre Zliobaite. On the relation between accuracy
+and fairness in binary classification. arXiv preprint
+arXiv:1505.05723, May 2015.
+
+
 #29 Learning Fair Representations
+
+Fair Naive-Bayes(FNB)
+LFR (Learned Fair Representations)
+linear predictor (LR)
+
+References
+Calders, T. and Verwer, S. Three naive bayes ap-
+proaches for discrimination-free classication. Data
+Mining and Knowledge Discovery, 21:277{292, 2010.
+Dwork, C. and Mulligan, D. Privacy and classication
+concerns in online behavioral targeting: Mapping
+objections and sketching solutions. In Privacy law
+Scholars Conference, 2012.
+Dwork, C., McSherry, F., Nissim, K., and Smith, A.
+Calibrating noise to sensitivity in private data anal-
+ysis. In Theory of Cryptograph Conference (TCC),
+2006.
+Dwork, C., Hardt, M., Pitassi, T., Reingold, O., and
+Zemel, R. Fairness through awareness. In Proceed-
+ings of Innovations of Theoretical Computer Sci-
+ence, 2011.
+Frank, A. and Asuncion, A. UCI machine learning
+repository, 2010. URL http://archive.ics.uci.
+edu/ml.
+Kamiran, F. and Calders, T. Classifying without dis-
+criminating. In 2nd International Conference on
+Computer, Control and Communication, pp. 1{6,
+2009.
+Kamishima, T., Akaho, S., and Sakuma, J. Fairness-
+aware learning through regularization approach. In
+IEEE 11th International Conference on Data Min-
+ing, pp. 643{650, 2011.
+Kohavi, R. Scaling up the accuracy of naive-bayes
+classiers: a decision-tree hybrid. In Proceedings of
+the Second International Conference on Knowledge
+Discovery and Data Mining, 1996.
+Luong, B., Ruggieri, S., and Turini, F. k-NN as an im-
+plementation of situation testing for discrimination
+discovery and prevention. In Proceedings of the 17th
+ACM KDD Conference, pp. 502{510, 2011.
+Pedreschi, D., Ruggieri, S., and Turini, F.
+Discrimination-aware data mining. In Proceedings of
+the 14th ACM KDD Conference, pp. 560{568, 2008.
+Tishby, N., Pereira, F.C., and Bialek, W. The In-
+formation Bottleneck method. In The 37th Annual
+Allerton Conference on Communication, Control,
+and Computing, 1999.
+Zarsky, T. Automated prediction: Perception, law,
+and policy. CACM 15 (9), 2012.
+
 #30 Learning to Model the Tail
+PCA
+SUN
+t-SNE
+National Science Foundation (NSF)
+
+References
+[1] A. Krizhevsky, I. Sutskever, and G. E. Hinton. ImageNet classification with deep convolutional
+neural networks. In NIPS, 2012.
+[2] K. Simonyan and A. Zisserman. Very deep convolutional networks for large-scale image
+recognition. In ICLR, 2015.
+
+[3] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and
+A. Rabinovich. Going deeper with convolutions. In CVPR, 2015.
+[4] K. He, X. Zhang, S. Ren, and J. Sun. Deep residual learning for image recognition. In CVPR,
+2016.
+[5] O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang, A. Karpathy,
+A. Khosla, M. Bernstein, A. C. Berg, and L. Fei-Fei. ImageNet large scale visual recognition
+challenge. IJCV, 115(3):211–252, 2015.
+[6] T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollár, and C. L. Zitnick.
+Microsoft COCO: Common objects in context. In ECCV, 2014.
+[7] B. Zhou, A. Lapedriza, A. Khosla, A. Oliva, and A. Torralba. Places: A 10 million image
+database for scene recognition. TPAMI, 2017.
+[8] X. Zhu, D. Anguelov, and D. Ramanan. Capturing long-tail distributions of object subcategories.
+In CVPR, 2014.
+[9] X. Zhu, C. Vondrick, C. C. Fowlkes, and D. Ramanan. Do we need more training data? IJCV,
+119(1):76–92, 2016.
+[10] G. Van Horn and P. Perona. The devil is in the tails: Fine-grained classification in the wild.
+arXiv preprint arXiv:1709.01450, 2017.
+[11] M. Everingham, L. Van Gool, C. K. Williams, J. Winn, and A. Zisserman. The PASCAL visual
+object classes (VOC) challenge. IJCV, 88(2):303–338, 2010.
+[12] R. Krishna, Y. Zhu, O. Groth, J. Johnson, K. Hata, J. Kravitz, S. Chen, Y. Kalanditis, L.-J. Li,
+D. A. Shamma, M. Bernstein, and L. Fei-Fei. Visual genome: Connecting language and vision
+using crowdsourced dense image annotations. IJCV, 123(1):32–73, 2017.
+[13] W. Ouyang, X. Wang, C. Zhang, and X. Yang. Factors in finetuning deep model for object
+detection with long-tail distribution. In CVPR, 2016.
+[14] J. Xiao, K. A. Ehinger, J. Hays, A. Torralba, and A. Oliva. SUN database: Exploring a large
+collection of scene categories. IJCV, 119(1):3–22, 2016.
+[15] S. Bengio. Sharing representations for long tail computer vision problems. In ICMI, 2015.
+[16] L. Shen, Z. Lin, and Q. Huang. Relay backpropagation for effective learning of deep convolutional
+neural networks. In ECCV, 2016.
+[17] Q. Zhong, C. Li, Y. Zhang, H. Sun, S. Yang, D. Xie, and S. Pu. Towards good practices for
+recognition & detection. In CVPR workshops, 2016.
+[18] S. J. Pan and Q. Yang. A survey on transfer learning. TKDE, 22(10):1345–1359, 2010.
+[19] J. Yosinski, J. Clune, Y. Bengio, and H. Lipson. How transferable are features in deep neural
+networks? In NIPS, 2014.
+[20] G. E. Hinton and R. R. Salakhutdinov. Reducing the dimensionality of data with neural networks.
+Science, 313(5786):504–507, 2006.
+[21] Y.-X.Wang and M. Hebert. Learning to learn: Model regression networks for easy small sample
+learning. In ECCV, 2016.
+[22] M. Andrychowicz, M. Denil, S. Gomez, M. W. Hoffman, D. Pfau, T. Schaul, and N. de Freitas.
+Learning to learn by gradient descent by gradient descent. In NIPS, 2016.
+[23] Y.-X. Wang and M. Hebert. Learning from small sample sets by combining unsupervised
+meta-training with CNNs. In NIPS, 2016.
+[24] K. Li and J. Malik. Learning to optimize. In ICLR, 2017.
+[25] S. Ravi and H. Larochelle. Optimization as a model for few-shot learning. In ICLR, 2017.
+[26] A. Sinha, M. Sarkar, A. Mukherjee, and B. Krishnamurthy. Introspection: Accelerating neural
+network training by learning weight evolution. In ICLR, 2017.
+[27] H. He and E. A. Garcia. Learning from imbalanced data. TKDE, 21(9):1263–1284, 2009.
+[28] C. Huang, Y. Li, C. C. Loy, and X. Tang. Learning deep representation for imbalanced
+classification. In CVPR, 2016.
+[29] S. Thrun and L. Pratt. Learning to learn. Springer Science & Business Media, 2012.
+[30] J. Schmidhuber, J. Zhao, and M. Wiering. Shifting inductive bias with success-story algorithm,
+adaptive levin search, and incremental self-improvement. Machine Learning, 28(1):105–130,
+1997.
+[31] R. Caruana. Multitask learning. Machine Learning, 28(1):41–75, 1997.
+[32] J. Schmidhuber. Evolutionary principles in self-referential learning. On learning how to learn:
+The meta-meta-... hook.) Diploma thesis, Institut f. Informatik, Tech. Univ. Munich, 1987.
+[33] J. Schmidhuber. Learning to control fast-weight memories: An alternative to dynamic recurrent
+networks. Neural Computation, 4(1):131–139, 1992.
+[34] J. Schmidhuber. A neural network that embeds its own meta-levels. In IEEE International
+Conference on Neural Networks, 1993.
+
+[35] L. Bertinetto, J. F. Henriques, J. Valmadre, P. Torr, and A. Vedaldi. Learning feed-forward
+one-shot learners. In NIPS, 2016.
+[36] D. Ha, A. Dai, and Q. V. Le. Hypernetworks. In ICLR, 2017.
+[37] C. Finn, P. Abbeel, and S. Levine. Model-agnostic meta-learning for fast adaptation of deep
+networks. In ICML, 2017.
+[38] S.-A. Rebuffi, H. Bilen, and A. Vedaldi. Learning multiple visual domains with residual adapters.
+In NIPS, 2017.
+[39] T. Munkhdalai and H. Yu. Meta networks. In ICML, 2017.
+[40] R. Socher, M. Ganjoo, C. D. Manning, and A. Ng. Zero-shot learning through cross-modal
+transfer. In NIPS, 2013.
+[41] J. Ba, K. Swersky, S. Fidler, and R. Salakhutdinov. Predicting deep zero-shot convolutional
+neural networks using textual descriptions. In ICCV, 2015.
+[42] H. Noh, P. H. Seo, and B. Han. Image question answering using convolutional neural network
+with dynamic parameter prediction. In CVPR, 2016.
+[43] L. Fei-Fei, R. Fergus, and P. Perona. One-shot learning of object categories. TPAMI, 28(4):594–
+611, 2006.
+[44] Y.-X. Wang and M. Hebert. Model recommendation: Generating object detectors from few
+samples. In CVPR, 2015.
+[45] G. Koch, R. Zemel, and R. Salakhutdinov. Siamese neural networks for one-shot image
+recognition. In ICML Workshops, 2015.
+[46] B. M. Lake, R. Salakhutdinov, and J. B. Tenenbaum. Human-level concept learning through
+probabilistic program induction. Science, 350(6266):1332–1338, 2015.
+[47] A. Santoro, S. Bartunov, M. Botvinick, D. Wierstra, and T. Lillicrap. One-shot learning with
+memory-augmented neural networks. In ICML, 2016.
+[48] Y.-X. Wang and M. Hebert. Learning by transferring from unsupervised universal sources. In
+AAAI, 2016.
+[49] Z. Li and D. Hoiem. Learning without forgetting. In ECCV, 2016.
+[50] B. Hariharan and R. Girshick. Low-shot visual recognition by shrinking and hallucinating
+features. In ICCV, 2017.
+[51] J. Bromley, J. W. Bentz, L. Bottou, I. Guyon, Y. LeCun, C. Moore, E. Säckinger, and R. Shah.
+Signature verification using a "siamese" time delay neural network. International Journal of
+Pattern Recognition and Artificial Intelligence, 7(4):669–688, 1993.
+[52] O. Vinyals, C. Blundell, T. Lillicrap, K. Kavukcuoglu, and D. Wierstra. Matching networks for
+one shot learning. In NIPS, 2016.
+[53] J. Snell, K. Swersky, and R. S. Zemel. Prototypical networks for few-shot learning. In NIPS,
+2017.
+[54] Y. Fu, T. Xiang, Y.-G. Jiang, X. Xue, L. Sigal, and S. Gong. Recent advances in zero-shot
+recognition: Toward data-efficient understanding of visual content. IEEE Signal Processing
+Magazine, 35(1):112–125, 2018.
+[55] D. George, W. Lehrach, K. Kansky, M. Lázaro-Gredilla, C. Laan, B. Marthi, X. Lou, Z. Meng,
+Y. Liu, H. Wang, A. Lavin, and D. S. Phoenix. A generative vision model that trains with high
+data efficiency and breaks text-based CAPTCHAs. Science, 2017.
+[56] E. Triantafillou, R. Zemel, and R. Urtasun. Few-shot learning through an information retrieval
+lens. In NIPS, 2017.
+[57] K. He, X. Zhang, S. Ren, and J. Sun. Identity mappings in deep residual networks. In ECCV,
+2016.
+[58] C. Sun, A. Shrivastava, S. Singh, and A. Gupta. Revisiting unreasonable effectiveness of data in
+deep learning era. In ICCV, 2017.
+[59] Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and
+T. Darrell. Caffe: Convolutional architecture for fast feature embedding. In ACM MM, 2014.
+[60] J. Donahue, Y. Jia, O. Vinyals, J. Hoffman, N. Zhang, E. Tzeng, and T. Darrell. Decaf: A deep
+convolutional activation feature for generic visual recognition. In ICML, 2014.
+[61] P. Agrawal, R. Girshick, and J. Malik. Analyzing the performance of multilayer neural networks
+for object recognition. In ECCV, 2014.
+[62] M. Huh, P. Agrawal, and A. A. Efros. What makes ImageNet good for transfer learning? In
+NIPS workshops, 2016.
+[63] Y.-X. Wang, D. Ramanan, and M. Hebert. Growing a brain: Fine-tuning by increasing model
+capacity. In CVPR, 2017.
+[64] L. van der Maaten and G. Hinton. Visualizing data using t-SNE. JMLR, 9(Nov):2579–2605,
+2008.
+
 #31 Limitations of the Lipschits constant as a defense against adversarial examples
+
+CoRR
+CRA
+
+References
+1. Athalye, A., Carlini, N., Wagner, D.A.: Obfuscated gradients give a false sense of
+security: Circumventing defenses to adversarial examples. CoRR abs/1802.00420
+(2018)
+2. Carlini, N.,Wagner, D.A.: Adversarial examples are not easily detected: Bypassing
+ten detection methods. In: AISec@CCS (2017)
+3. Carlini, N., Wagner, D.A.: Towards evaluating the robustness of neural networks.
+2017 IEEE Symposium on Security and Privacy (SP) pp. 39–57 (2017)
+4. Ciss´e, M., Bojanowski, P., Grave, E., Dauphin, Y., Usunier, N.: Parseval networks:
+Improving robustness to adversarial examples. In: ICML (2017)
+5. Collobert, R., Weston, J., Bottou, L., Karlen, M., Kavukcuoglu, K., Kuksa, P.P.:
+Natural language processing (almost) from scratch. Journal of Machine Learning
+Research 12, 2493–2537 (2011)
+Limitations of the Lipschitz constant 11
+6. Goodfellow, I.J., Shlens, J., Szegedy, C.: Explaining and harnessing adversarial
+examples. CoRR abs/1412.6572 (2014)
+7. Hinton, G.E., Deng, L., Yu, D., Dahl, G.E., rahman Mohamed, A., Jaitly, N.,
+Senior, A., Vanhoucke, V., Nguyen, P., Sainath, T.N., Kingsbury, B.: Deep neural
+networks for acoustic modeling in speech recognition: The shared views of four
+research groups. IEEE Signal Processing Magazine 29, 82–97 (2012)
+8. Kolter, J.Z., Wong, E.: Provable defenses against adversarial examples via the
+convex outer adversarial polytope. CoRR abs/1711.00851 (2017)
+9. Krizhevsky, A., Sutskever, I., Hinton, G.E.: Imagenet classification with deep con-
+volutional neural networks. In: F. Pereira, C.J.C. Burges, L. Bottou, K.Q. Wein-
+berger (eds.) Advances in Neural Information Processing Systems 25, pp. 1097–
+1105. Curran Associates, Inc. (2012)
+10. Madry, A., Makelov, A., Schmidt, L., Tsipras, D., Vladu, A.: Towards deep learning
+models resistant to adversarial attacks. CoRR abs/1706.06083 (2017)
+11. Papernot, N., McDaniel, P.D., Goodfellow, I.J., Jha, S., Celik, Z.B., Swami, A.:
+Practical black-box attacks against machine learning. In: AsiaCCS (2017)
+12. Qian, H., Wegman, M.N.: L2-nonexpansive neural networks. CoRR
+abs/1802.07896 (2018)
+13. Raghunathan, A., Steinhardt, J., Liang, P.: Certified defenses against adversarial
+examples. CoRR abs/1801.09344 (2018)
+14. Szegedy, C., Zaremba, W., Sutskever, I., Bruna, J., Erhan, D., Goodfellow, I.J.,
+Fergus, R.: Intriguing properties of neural networks. CoRR abs/1312.6199 (2013)
+15. Tram`er, F., Papernot, N., Goodfellow, I.J., Boneh, D., McDaniel, P.D.: The space
+of transferable adversarial examples. CoRR abs/1704.03453 (2017)
+16. Tsuzuku, Y., Sato, I., Sugiyama, M.: Lipschitz-margin training: Scalable certifica-
+tion of perturbation invariance for deep neural networks. CoRR abs/1802.04034
+(2018)
+
 #32 Max-margin Class Imbalanced Learning with Gaussian Affinity
+
+Synthetic Minority Oversampling TEchnique (SMOTE)
+Labelled Faces in the Wild (LFW) 
+YouTube Faces (YTF) 
+Celebrities in Frontal Profile (CFP)
+frontal-frontal (FF) 
+frontal-profile (FP)
+Squeeze and Excitation (SE)
+
+References
+[1] L. Ballerini, R. B. Fisher, B. Aldridge, and J. Rees. Nonmelanoma
+skin lesion classification using colour image data
+in a hierarchical k-nn classifier. In Biomedical Imaging
+(ISBI), 2012 9th IEEE International Symposium on, pages
+358–361. IEEE, 2012.
+[2] L. Ballerini, R. B. Fisher, B. Aldridge, and J. Rees. A color
+and texture based hierarchical k-nn approach to the classification
+of non-melanoma skin lesions. In Color Medical
+Image Analysis, pages 63–86. Springer, 2013.
+[3] R. Barandela, E. Rangel, J. S. S´anchez, and F. J. Ferri. Restricted
+decontamination for the imbalanced training sample
+problem. In Iberoamerican Congress on Pattern Recognition,
+pages 424–431. Springer, 2003.
+[4] Q. Cao, L. Shen, W. Xie, O. M. Parkhi, and A. Zisserman.
+Vggface2: A dataset for recognising faces across pose and
+age. In International Conference on Automatic Face and
+Gesture Recognition, 2018.
+[5] C. L. Castro and A. P. Braga. Novel cost-sensitive approach
+to improve the multilayer perceptron performance on imbalanced
+data. IEEE transactions on neural networks and learning
+systems, 24(6):888–899, 2013.
+[6] J.-R. Chang and Y.-S. Chen. Batch-normalized maxout network
+in network. arXiv preprint arXiv:1511.02583, 2015.
+[7] N. V. Chawla, K. W. Bowyer, L. O. Hall, and W. P.
+Kegelmeyer. Smote: synthetic minority over-sampling technique.
+Journal of artificial intelligence research, 16:321–
+357, 2002.
+[8] B. Chen, W. Deng, and J. Du. Noisy softmax: Improving
+the generalization ability of dcnn via postponing the early
+softmax saturation. In Proceedings of the IEEE Conference
+on Computer Vision and Pattern Recognition, pages 5372–
+5381, 2017.
+[9] C. Cortes and V. Vapnik. Support-vector networks. Machine
+learning, 20(3):273–297, 1995.
+[10] J. Deng, J. Guo, and S. Zafeiriou. Arcface: Additive angular
+margin loss for deep face recognition. arXiv preprint
+arXiv:1801.07698, 2018.
+[11] J. Deng, Y. Zhou, and S. Zafeiriou. Marginal loss for deep
+face recognition. In 2017 IEEE Conference on Computer
+Vision and Pattern Recognition Workshops (CVPRW), pages
+2006–2014. IEEE, 2017.
+[12] G. F. Elsayed, D. Krishnan, H. Mobahi, K. Regan, and
+S. Bengio. Large margin deep networks for classification.
+arXiv preprint arXiv:1803.05598, 2018.
+[13] R. Hadsell, S. Chopra, and Y. LeCun. Dimensionality reduction
+by learning an invariant mapping. In null, pages 1735–
+1742. IEEE, 2006.
+[14] H. Han, W.-Y. Wang, and B.-H. Mao. Borderline-smote: a
+new over-sampling method in imbalanced data sets learning.
+In International Conference on Intelligent Computing, pages
+878–887. Springer, 2005.
+[15] H. He and E. A. Garcia. Learning from imbalanced data.
+IEEE Transactions on knowledge and data engineering,
+21(9):1263–1284, 2009.
+[16] M. A. Hearst, S. T. Dumais, E. Osuna, J. Platt, and
+B. Scholkopf. Support vector machines. IEEE Intelligent
+Systems and their applications, 13(4):18–28, 1998.
+[17] J. Hu, L. Shen, and G. Sun. Squeeze-and-excitation networks.
+arXiv preprint arXiv:1709.01507, 7, 2017.
+[18] C. Huang, Y. Li, C. Change Loy, and X. Tang. Learning
+deep representation for imbalanced classification. In Proceedings
+of the IEEE Conference on Computer Vision and
+Pattern Recognition, pages 5375–5384, 2016.
+[19] C. Huang, C. C. Loy, and X. Tang. Discriminative sparse
+neighbor approximation for imbalanced learning. IEEE
+transactions on neural networks and learning systems,
+29(5):1503–1513, 2018.
+[20] P. Jeatrakul, K. W. Wong, and C. C. Fung. Classification
+of imbalanced data by combining the complementary neural
+network and smote algorithm. In International Conference
+on Neural Information Processing, pages 152–159. Springer,
+2010.
+[21] T. Jo and N. Japkowicz. Class imbalances versus small disjuncts.
+ACM Sigkdd Explorations Newsletter, 6(1):40–49,
+2004.
+[22] S. Khan, H. Rahmani, S. A. A. Shah, and M. Bennamoun. A
+guide to convolutional neural networks for computer vision.
+Synthesis Lectures on Computer Vision, 8(1):1–207, 2018.
+[23] S. H. Khan, M. Hayat, M. Bennamoun, F. Sohel, and
+R. Togneri. Cost sensitive learning of deep feature representations
+from imbalanced data. IEEE Transactions on Neural
+Networks and Learning Systems, 2017.
+[24] B. Krawczyk, M. Woniak, and G. Schaefer. Cost-sensitive
+decision tree ensembles for effective imbalanced classification.
+Applied Soft Computing, 14:554 – 562, 2014.
+[25] M. KUBAT. Addressing the curse of imbalanced training
+sets: One-sided selection. In Proceedings of the 14th International
+Conference on Machine Learning, pages 179–186.
+Morgan Kaufmann, 1997.
+[26] S. Lawrence, I. Burns, A. Back, A. C. Tsoi, and C. L. Giles.
+Neural network classification and prior class probabilities.
+In Neural networks: Tricks of the trade, pages 295–309.
+Springer, 2012.
+[27] G. B. H. E. Learned-Miller. Labeled faces in the wild: Updates
+and new reporting procedures. Technical Report UMCS-
+2014-003, University of Massachusetts, Amherst, May
+2014.
+[28] C.-Y. Lee, P. W. Gallagher, and Z. Tu. Generalizing pooling
+functions in convolutional neural networks: Mixed, gated,
+and tree. In Proceedings of the 19th International Conference
+on Artificial Intelligence and Statistics, pages 464–472,
+2016.
+[29] C.-Y. Lee, S. Xie, P. Gallagher, Z. Zhang, and Z. Tu. Deeplysupervised
+nets. 2015.
+[30] M. Li, X. Chen, X. Li, B. Ma, and P. M. Vit´anyi. The similarity
+metric. IEEE transactions on Information Theory,
+50(12):3250–3264, 2004.
+[31] J. Liu, Y. Deng, T. Bai, Z.Wei, and C. Huang. Targeting ultimate
+accuracy: Face recognition via deep embedding. arXiv
+preprint arXiv:1506.07310, 2015.
+[32] W. Liu, Y. Wen, Z. Yu, M. Li, B. Raj, and L. Song.
+Sphereface: Deep hypersphere embedding for face recognition.
+In 2017 IEEE Conference on Computer Vision and
+Pattern Recognition (CVPR), pages 6738–6746. IEEE, 2017.
+[33] W. Liu, Y. Wen, Z. Yu, and M. Yang. Large-margin softmax
+loss for convolutional neural networks. In International
+Conference on Machine Learning, pages 507–516, 2016.
+[34] I. Masi, A. T. Trn, T. Hassner, J. T. Leksut, and G. Medioni.
+Do we really need to collect millions of faces for effective
+face recognition? In European Conference on Computer
+Vision, pages 579–596. Springer, 2016.
+[35] S. Moschoglou, A. Papaioannou, C. Sagonas, J. Deng, I. Kotsia,
+and S. Zafeiriou. Agedb: the first manually collected, inthe-
+wild age database. In Proceedings of IEEE Intl Conf. on
+Computer Vision and Pattern Recognition (CVPR-W 2017),
+Honolulu, Hawaii, June 2017.
+[36] W. W. Ng, G. Zeng, J. Zhang, D. S. Yeung, and W. Pedrycz.
+Dual autoencoders features for imbalance classification
+problem. Pattern Recognition, 60:875–889, 2016.
+[37] O. M. Parkhi, A. Vedaldi, A. Zisserman, et al. Deep face
+recognition. In Proceedings of the British Machine Vision
+Conference, pages 6–14, 2015.
+[38] M. D. Richard and R. P. Lippmann. Neural network classifiers
+estimate bayesian a posteriori probabilities. Neural
+computation, 3(4):461–483, 1991.
+[39] C. C. V. P. R. C. D. J. S. Sengupta, J.C. Cheng. Frontal to
+profile face verification in the wild. In IEEE Conference on
+Applications of Computer Vision, February 2016.
+[40] F. Schroff, D. Kalenichenko, and J. Philbin. Facenet: A
+unified embedding for face recognition and clustering. In
+Proceedings of the IEEE conference on computer vision and
+pattern recognition, pages 815–823, 2015.
+[41] L. Shen, Z. Lin, and Q. Huang. Relay backpropagation for
+effective learning of deep convolutional neural networks. In
+European conference on computer vision, pages 467–482.
+Springer, 2016.
+[42] V. S. Sheng, F. Provost, and P. G. Ipeirotis. Get another label?
+improving data quality and data mining using multiple,
+noisy labelers. In Proceedings of the 14th ACM SIGKDD
+international conference on Knowledge discovery and data
+mining, pages 614–622. ACM, 2008.
+[43] J. Snell, K. Swersky, and R. Zemel. Prototypical networks
+for few-shot learning. In Advances in Neural Information
+Processing Systems, pages 4077–4087, 2017.
+[44] Y. Sun, Y. Chen, X. Wang, and X. Tang. Deep learning
+face representation by joint identification-verification. In
+Advances in neural information processing systems, pages
+1988–1996, 2014.
+[45] Y. Sun, X. Wang, and X. Tang. Deeply learned face representations
+are sparse, selective, and robust. In Proceedings of
+the IEEE conference on computer vision and pattern recognition,
+pages 2892–2900, 2015.
+[46] Y. Taigman, M. Yang, M. Ranzato, and L. Wolf. Deepface:
+Closing the gap to human-level performance in face verification.
+In Proceedings of the IEEE conference on computer
+vision and pattern recognition, pages 1701–1708, 2014.
+[47] Y. Taigman, M. Yang, M. Ranzato, and L. Wolf. Webscale
+training for face identification. In Proceedings of the
+IEEE conference on computer vision and pattern recognition,
+pages 2746–2754, 2015.
+[48] Y. Tang, Y.-Q. Zhang, N. V. Chawla, and S. Krasser. Svms
+modeling for highly imbalanced classification. IEEE Transactions
+on Systems, Man, and Cybernetics, Part B (Cybernetics),
+39(1):281–288, 2009.
+[49] K. M. Ting. A comparative study of cost-sensitive boosting
+algorithms. In In Proceedings of the 17th International
+Conference on Machine Learning. Citeseer, 2000.
+[50] O. Vinyals, C. Blundell, T. Lillicrap, D. Wierstra, et al.
+Matching networks for one shot learning. In Advances in
+Neural Information Processing Systems, pages 3630–3638,
+2016.
+[51] H. Wang, Y. Wang, Z. Zhou, X. Ji, D. Gong, J. Zhou, Z. Li,
+andW. Liu. Cosface: Large margin cosine loss for deep face
+recognition. In The IEEE Conference on Computer Vision
+and Pattern Recognition (CVPR), June 2018.
+[52] S.Wang,W. Liu, J.Wu, L. Cao, Q. Meng, and P. J. Kennedy.
+Training deep neural networks on imbalanced data sets. In
+Neural Networks (IJCNN), 2016 International Joint Conference
+on, pages 4368–4374. IEEE, 2016.
+[53] Y.-X.Wang, D. Ramanan, and M. Hebert. Learning to model
+the tail. In Advances in Neural Information Processing Systems,
+pages 7029–7039, 2017.
+[54] Y. Wen, K. Zhang, Z. Li, and Y. Qiao. A discriminative
+feature learning approach for deep face recognition. In
+European Conference on Computer Vision, pages 499–515.
+Springer, 2016.
+[55] L.Wolf, T. Hassner, and I. Maoz. Face recognition in unconstrained
+videos with matched background similarity. In Computer
+Vision and Pattern Recognition (CVPR), 2011 IEEE
+Conference on, pages 529–534. IEEE, 2011.
+[56] Y. Wu, H. Liu, J. Li, and Y. Fu. Deep face recognition with
+center invariant loss. In Proceedings of the on Thematic
+Workshops of ACM Multimedia 2017, pages 408–414. ACM,
+2017.
+[57] Y. Yao, L. Rosasco, and A. Caponnetto. On early stopping
+in gradient descent learning. Constructive Approximation,
+26(2):289–315, 2007.
+[58] X. Yin, X. Yu, K. Sohn, X. Liu, and M. Chandraker. Feature
+transfer learning for deep face recognition with long-tail
+data. arXiv preprint arXiv:1803.09014, 2018.
+[59] K. Zhang, Z. Zhang, Z. Li, and Y. Qiao. Joint face detection
+and alignment using multitask cascaded convolutional networks.
+IEEE Signal Processing Letters, 23(10):1499–1503,
+Oct 2016.
+[60] X. Zhang, Z. Fang, Y. Wen, Z. Li, and Y. Qiao. Range loss
+for deep face recognition with long-tailed training data. In
+Proceedings of the IEEE International Conference on Computer
+Vision, pages 5409–5418, 2017.
+[61] Z.-H. Zhou and X.-Y. Liu. On multi-class cost-sensitive
+learning. Computational Intelligence, 26(3):232–257, 2010.
+
 #33 mixup: Beyond Empirical Risk Minimization
+
+LeNet ?
+VGG-11
+Fast Gradient Sign Method (FGSM)
+Iterative FGSM (I-FGSM)
+
+REFERENCES
+D. Amodei, S. Ananthanarayanan, R. Anubhai, J. Bai, E. Battenberg, C. Case, J. Casper, B. Catanzaro, Q. Cheng,
+G. Chen, et al. Deep speech 2: End-to-end speech recognition in English and Mandarin. In ICML, 2016.
+D. Arpit, S. Jastrzebski, N. Ballas, D. Krueger, E. Bengio, M. S. Kanwal, T. Maharaj, A. Fischer, A. Courville,
+Y. Bengio, et al. A closer look at memorization in deep networks. ICML, 2017.
+P. Bartlett, D. J. Foster, and M. Telgarsky. Spectrally-normalized margin bounds for neural networks. NIPS,
+2017.
+O. Chapelle, J. Weston, L. Bottou, and V. Vapnik. Vicinal risk minimization. NIPS, 2000.
+N. V. Chawla, K. W. Bowyer, L. O. Hall, and W. P. Kegelmeyer. SMOTE: synthetic minority over-sampling
+technique. Journal of artificial intelligence research, 16:321–357, 2002.
+C. Chelba, T. Mikolov, M. Schuster, Q. Ge, T. Brants, P. Koehn, and T. Robinson. One billion word benchmark
+for measuring progress in statistical language modeling. arXiv, 2013.
+M. Cisse, P. Bojanowski, E. Grave, Y. Dauphin, and N. Usunier. Parseval networks: Improving robustness to
+adversarial examples. ICML, 2017.
+W. M. Czarnecki, S. Osindero, M. Jaderberg, G. ´ Swirszcz, and R. Pascanu. Sobolev training for neural networks.
+NIPS, 2017.
+T. DeVries and G. W. Taylor. Dataset augmentation in feature space. ICLR Workshops, 2017.
+H. Drucker and Y. Le Cun. Improving generalization performance using double backpropagation. IEEE
+Transactions on Neural Networks, 3(6):991–997, 1992.
+I. Goodfellow. Tutorial: Generative adversarial networks. NIPS, 2016.
+I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, S. Ozair, A. Courville, and Y. Bengio.
+Generative adversarial nets. NIPS, 2014.
+
+Published as a conference paper at ICLR 2018
+I. J. Goodfellow, J. Shlens, and C. Szegedy. Explaining and harnessing adversarial examples. ICLR, 2015.
+P. Goyal, P. Doll´ar, R. Girshick, P. Noordhuis, L.Wesolowski, A. Kyrola, A. Tulloch, Y. Jia, and K. He. Accurate,
+large minibatch SGD: Training ImageNet in 1 hour. arXiv, 2017.
+A. Graves, A.-r. Mohamed, and G. Hinton. Speech recognition with deep recurrent neural networks. In ICASSP.
+IEEE, 2013.
+I. Gulrajani, F. Ahmed, M. Arjovsky, V. Dumoulin, and A. Courville. Improved training of Wasserstein GANs.
+NIPS, 2017.
+N. Harvey, C. Liaw, and A. Mehrabian. Nearly-tight VC-dimension bounds for piecewise linear neural networks.
+JMLR, 2017.
+K. He, X. Zhang, S. Ren, and J. Sun. Identity mappings in deep residual networks. ECCV, 2016.
+M. Hein and M. Andriushchenko. Formal guarantees on the robustness of a classifier against adversarial
+manipulation. NIPS, 2017.
+G. Hinton, L. Deng, D. Yu, G. E. Dahl, A.-r. Mohamed, N. Jaitly, A. Senior, V. Vanhoucke, P. Nguyen, T. N.
+Sainath, et al. Deep neural networks for acoustic modeling in speech recognition: The shared views of four
+research groups. IEEE Signal Processing Magazine, 2012.
+G. Huang, Z. Liu, L. van der Maaten, and K. Q. Weinberger. Densely connected convolutional networks. CVPR,
+2017.
+D. Kingma and J. Ba. Adam: A method for stochastic optimization. ICLR, 2015.
+A. Krizhevsky, I. Sutskever, and G. E. Hinton. ImageNet classification with deep convolutional neural networks.
+NIPS, 2012.
+Y. Lecun, L. Bottou, Y. Bengio, and P. Haffner. Gradient-based learning applied to document recognition. Proceedings of IEEE, 2001. http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf
+
+M. Lichman. UCI machine learning repository, 2013.
+K. Liu, 2017. URL https://github.com/kuangliu/pytorch-cifar.
+G. Pereyra, G. Tucker, J. Chorowski, Ł. Kaiser, and G. Hinton. Regularizing neural networks by penalizing
+confident output distributions. ICLR Workshops, 2017.
+O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein,
+A. C. Berg, and L. Fei-Fei. ImageNet large scale visual recognition challenge. IJCV, 2015.
+D. Silver, A. Huang, C. J. Maddison, A. Guez, L. Sifre, G. Van Den Driessche, J. Schrittwieser, I. Antonoglou,
+V. Panneershelvam, M. Lanctot, et al. Mastering the game of Go with deep neural networks and tree search.
+Nature, 2016.
+P. Simard, Y. LeCun, J. Denker, and B. Victorri. Transformation invariance in pattern recognitiontangent distance
+and tangent propagation. Neural networks: tricks of the trade, 1998.
+K. Simonyan and A. Zisserman. Very deep convolutional networks for large-scale image recognition. ICLR,
+2015.
+J. T. Springenberg, A. Dosovitskiy, T. Brox, and M. Riedmiller. Striving for simplicity: The all convolutional
+net. ICLR Workshops, 2015.
+N. Srivastava, G. E. Hinton, A. Krizhevsky, I. Sutskever, and R. Salakhutdinov. Dropout: a simple way to
+prevent neural networks from overfitting. Journal of Machine Learning Research, 15(1):1929–1958, 2014.
+C. Szegedy, W. Zaremba, I. Sutskever, J. Bruna, D. Erhan, I. J. Goodfellow, and R. Fergus. Intriguing properties
+of neural networks. ICLR, 2014.
+C. Szegedy, V. Vanhoucke, S. Ioffe, J. Shlens, and Z. Wojna. Rethinking the Inception architecture for computer
+vision. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016.
+V. N. Vapnik. Statistical learning theory. J. Wiley, 1998.
+V. Vapnik and A. Y. Chervonenkis. On the uniform convergence of relative frequencies of events to their
+probabilities. Theory of Probability and its Applications, 1971.
+
+Published as a conference paper at ICLR 2018
+A. Veit, 2017. URL https://github.com/andreasveit.
+P. Warden, 2017. URL https://research.googleblog.com/2017/08/
+launching-speech-commands-dataset.html.
+S. Xie, R. Girshick, P. Doll´ar, Z. Tu, and K. He. Aggregated residual transformations for deep neural networks.
+CVPR, 2016.
+S. Zagoruyko and N. Komodakis. Wide residual networks. BMVC, 2016a.
+S. Zagoruyko and N. Komodakis, 2016b. URL https://github.com/szagoruyko/
+wide-residual-networks.
+C. Zhang, S. Bengio, M. Hardt, B. Recht, and O. Vinyals. Understanding deep learning requires rethinking
+generalization. ICLR, 2017.
+C. Zhang, 2017. URL https://github.com/pluskid/fitting-random-labels.
+Z. Zhong, L. Zheng, G. Kang, S. Li, and Y. Yang. Random erasing data augmentation. arXiv, 2017.
+
 #34 On Learning Density Aware Embeddings
 #35 On the Legal Comparability of Fairness Definitions
 #36 One-network Adversarial Fairness
