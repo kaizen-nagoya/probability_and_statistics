@@ -5339,7 +5339,550 @@ Handling conditional discrimination. In Data Mining
 on, pages 992–1001. IEEE, 2011.
 
 #46 The Limitations of Deep Learning in Adversarial Settings
+
+SPAM
+
+
+REFERENCES
+[1] E. G. Amoroso. Fundamentals of Computer Security Technology.
+Prentice-Hall, Inc., Upper Saddle River, NJ, USA, 1994.
+[2] M. Barreno, B. Nelson, A. D. Joseph, and J. Tygar. The security of
+machine learning. Machine Learning, 81(2):121–148, 2010.
+[3] M. Barreno, B. Nelson, R. Sears, A. D. Joseph, and J. D. Tygar.
+Can machine learning be secure? In Proceedings of the 2006 ACM
+Symposium on Information, computer and communications security,
+pages 16–25. ACM, 2006.
+[4] Y. Bengio. Learning deep architectures for AI. Foundations and trends
+in Machine Learning, 2(1):1–127, 2009.
+[5] J. Bergstra, O. Breuleux, F. Bastien, P. Lamblin, R. Pascanu, G. Desjardins,
+J. Turian, D. Warde-Farley, and Y. Bengio. Theano: a cpu and
+gpu math expression compiler. In Proceedings of the Python for scientific
+computing conference (SciPy), volume 4, page 3. Austin, TX, 2010.
+[6] B. Biggio, I. Corona, D. Maiorca, B. Nelson, N. ˇ Srndi´c, P. Laskov,
+G. Giacinto, and F. Roli. Evasion attacks against machine learning at
+test time. In Machine Learning and Knowledge Discovery in Databases,
+pages 387–402. Springer, 2013.
+[7] B. Biggio, G. Fumera, and F. Roli. Pattern recognition systems under
+attack: Design issues and research challenges. International Journal of
+Pattern Recognition and Artificial Intelligence, 28(07):1460002, 2014.
+[8] B. Biggio, G. Fumera, and F. Roli. Security evaluation of pattern
+classifiers under attack. Knowledge and Data Engineering, IEEE
+Transactions on, 26(4):984–996, 2014.
+[9] B. Biggio, B. Nelson, and P. Laskov. Support vector machines under
+adversarial label noise. In ACML, pages 97–112, 2011.
+[10] B. Biggio, B. Nelson, and L. Pavel. Poisoning attacks against support
+vector machines. In Proceedings of the 29th International Conference
+on Machine Learning, 2012.
+[11] B. Biggio, K. Rieck, D. Ariu, C. Wressnegger, I. Corona, G. Giacinto,
+and F. Roli. Poisoning behavioral malware clustering. In Proceedings
+of the 2014 Workshop on Artificial Intelligent and Security Workshop,
+pages 27–36. ACM, 2014.
+[12] D. Cires¸an, U. Meier, J. Masci, et al. Multi-column deep neural network
+for traffic sign classification. Neural Networks, 32:333–338, 2012.
+[13] R. Collobert and J. Weston. A unified architecture for natural language
+processing: Deep neural networks with task learning. In Proceedings of
+the 25th international conference on Machine learning, pages 160–167.
+ACM, 2008.
+[14] G. E. Dahl, J. W. Stokes, L. Deng, and D. Yu. Large-scale malware
+classification using random projections and neural networks. In Acoustics,
+Speech and Signal Processing (ICASSP), 2013 IEEE International
+Conference on, pages 3422–3426. IEEE, 2013.
+[15] G. E. Dahl, D. Yu, et al. Context-dependent pre-trained deep neural
+networks for large-vocabulary speech recognition. IEEE Transactions
+on Audio, Speech, and Language Processing, 20(1):30–42, 2012.
+[16] P. Fogla and W. Lee. Evading network anomaly detection systems:
+formal reasoning and practical techniques. In Proceedings of the 13th
+ACM conference on Computer and communications security, pages 59–
+68. ACM, 2006.
+[17] I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley,
+S. Ozair, et al. Generative adversarial nets. In Advances in Neural
+Information Processing Systems, pages 2672–2680, 2014.
+[18] I. J. Goodfellow, J. Shlens, and C. Szegedy. Explaining and harnessing
+adversarial examples. In Proceedings of the 2015 International
+Conference on Learning Representations. Computational and Biological
+Learning Society, 2015.
+[19] S. Gu and L. Rigazio. Towards deep neural network architectures
+robust to adversarial examples. In Proceedings of the 2015 International
+Conference on Learning Representations. Computational and Biological
+Learning Society, 2015.
+[20] G. Hinton, S. Osindero, and Y.-W. Teh. A fast learning algorithm for
+deep belief nets. Neural computation, 18(7):1527–1554, 2006.
+[21] K. Hornik, M. Stinchcombe, et al. Multilayer feedforward networks are
+universal approximators. Neural networks, 2(5):359–366, 1989.
+[22] L. Huang, A. D. Joseph, B. Nelson, B. I. Rubinstein, and J. Tygar.
+Adversarial machine learning. In Proceedings of the 4th ACM workshop
+on Security and artificial intelligence, pages 43–58. ACM, 2011.
+[23] E. Knorr. How paypal beats the bad guys with machine learning.
+http://www.infoworld.com/article/2907877/machine-learning/howpaypal-
+reduces-fraud-with-machine-learning.html, 2015.
+[24] A. Krizhevsky, I. Sutskever, and G. E. Hinton. Imagenet classification
+with deep convolutional neural networks. In Advances in neural
+information processing systems, pages 1097–1105, 2012.
+[25] H. Larochelle, Y. Bengio, J. Louradour, and P. Lamblin. Exploring
+strategies for training deep neural networks. The Journal of Machine
+Learning Research, 10:1–40, 2009.
+[26] Y. LeCun, L. Bottou, et al. Gradient-based learning applied to document
+recognition. Proceedings of the IEEE, 86(11):2278–2324, 1998.
+[27] Y. LeCun and C. Cortes. The mnist database of handwritten digits, 1998.
+[28] LISA lab. http://deeplearning.net/tutorial/lenet.html, 2010.
+[29] K. P. Murphy. Machine learning: a probabilistic perspective. MIT 2012.
+[30] A. Nguyen, J. Yosinski, and J. Clune. Deep neural networks are easily
+fooled: High confidence predictions for unrecognizable images. In In
+Computer Vision and Pattern Recognition (CVPR 2015). IEEE, 2015.
+[31] D. E. Rumelhart, G. E. Hinton, and R. J. Williams. Learning representations
+by back-propagating errors. Cognitive modeling, 5, 1988.
+[32] T. N. Sainath, O. Vinyals, A. Senior, and H. Sak. Convolutional, long
+short-term memory, fully connected deep neural networks. 2015.
+[33] H. Sak, A. Senior, and F. Beaufays. Long short-term memory recurrent
+neural network architectures for large scale acoustic modeling. In
+Proceedings of the Annual Conference of International Speech Communication
+Association (INTERSPEECH), 2014.
+[34] K. Simonyan, A. Vedaldi, and A. Zisserman. Deep inside convolutional
+networks: Visualising image classification models and saliency maps.
+arXiv preprint arXiv:1312.6034, 2013.
+[35] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan,
+V. Vanhoucke, and A. Rabinovich. Going deeper with convolutions.
+arXiv preprint arXiv:1409.4842, 2014.
+[36] C. Szegedy, W. Zaremba, I. Sutskever, J. Bruna, D. Erhan, I. Goodfellow,
+and R. Fergus. Intriguing properties of neural networks. In Proceedings
+of the 2014 International Conference on Learning Representations.
+Computational and Biological Learning Society, 2014.
+[37] Y. Taigman, M. Yang, et al. Deepface: Closing the gap to human-level
+performance in face verification. In IEEE Conference on Computer
+Vision and Pattern Recognition (CVPR), pages 1701–1708. IEEE, 2014.
+[38] J. Yosinski, J. Clune, Y. Bengio, and H. Lipson. How transferable are
+features in deep neural networks? In Advances in Neural Information
+Processing Systems, pages 3320–3328, 2014.
+
 #47 Trainable Undersampling for Class-Imbalance Learning
+
+AUCPRC
+ALLKNN
+
+area under the curve (AUC)
+Diabetic Retinopathy (DR)
+Evolutionary Undersampling (EUS)
+geometric mean (GM)
+gated recurrent unit (GRU)
+k-nearest neighbor (KNN)
+Matthews correlation coefficient (MCC)
+Markov decision process (MDP)
+Principle Component Analysis (PCA)
+random majority undersampling (RUS)
+
+References
+Bahdanau, D.; Cho, K.; and Bengio, Y. 2014. Neural machine
+translation by jointly learning to align and translate. arXiv
+preprint arXiv:1409.0473.
+Batista, G. E.; Prati, R. C.; and Monard, M. C. 2004. A study of
+the behavior of several methods for balancing machine learning
+training data. ACM SIGKDD explorations newsletter 6(1):20–
+29.
+Błaszczy´nski, J., and Stefanowski, J. 2015. Neighbourhood
+sampling in bagging for imbalanced data. Neurocomputing
+150:529–542.
+Calders, T., and Jaroszewicz, S. 2007. Efficient auc
+optimization for classification. In European Conference on
+Principles of Data Mining and Knowledge Discovery, 42–53.
+Springer.
+Chawla, N. V.; Bowyer, K. W.; Hall, L. O.; and Kegelmeyer,
+W. P. 2002. Smote: synthetic minority over-sampling
+technique. Journal of artificial intelligence research 16:321–
+357.
+Cieslak, D. A., and Chawla, N. V. 2008. Start globally,
+optimize locally, predict globally: Improving performance on
+imbalanced data. In Data Mining, 2008. ICDM’08. Eighth
+IEEE International Conference on, 143–152. IEEE.
+Dal Pozzolo, A.; Caelen, O.; Johnson, R. A.; and Bontempi,
+G. 2015. Calibrating probability with undersampling for
+unbalanced classification. In Computational Intelligence, 2015
+IEEE Symposium Series on, 159–166. IEEE.
+Eban, E.; Schain, M.; Mackey, A.; Gordon, A.; Rifkin, R.;
+and Elidan, G. 2017. Scalable learning of non-decomposable
+objectives. In Artificial Intelligence and Statistics, 832–840.
+Fauw, D. 2015. J. 5th place solution of the kaggle diabetic
+retinopathy competition.
+Fern´andez, A.; Garc´ıa, S.; del Jesus, M. J.; and Herrera, F.
+2008. A study of the behaviour of linguistic fuzzy rule based
+classification systems in the framework of imbalanced datasets.
+Fuzzy Sets and Systems 159(18):2378–2398.
+Ganganwar, V. 2012. An overview of classification algorithms
+for imbalanced datasets. International Journal of Emerging
+Technology and Advanced Engineering 2(4):42–47.
+Garc´ıa, S., and Herrera, F. 2009. Evolutionary undersampling
+for classification with imbalanced datasets: Proposals and
+taxonomy. Evolutionary computation 17(3):275–306.
+Hanley, J. A., and McNeil, B. J. 1982. The meaning and use
+of the area under a receiver operating characteristic (roc) curve.
+Radiology 143(1):29–36.
+He, H., and Garcia, E. A. 2009. Learning from imbalanced
+data. IEEE Transactions on knowledge and data engineering
+21(9):1263–1284.
+He, H.; Bai, Y.; Garcia, E. A.; and Li, S. 2008. Adasyn:
+Adaptive synthetic sampling approach for imbalanced learning.
+In Neural Networks, 2008. IJCNN 2008.(IEEE World Congress
+on Computational Intelligence). IEEE International Joint
+Conference on, 1322–1328. IEEE.
+Herschtal, A., and Raskutti, B. 2004. Optimising area under the
+roc curve using gradient descent. In Proceedings of the twentyfirst
+international conference on Machine learning, 49. ACM.
+Kang, P., and Cho, S. 2006. Eus svms: Ensemble
+of under-sampled svms for data imbalance problems. In
+International Conference on Neural Information Processing,
+837–846. Springer.
+Leibig, C.; Allken, V.; Ayhan, M. S.; Berens, P.; and Wahl, S.
+2017. Leveraging uncertainty information from deep neural
+networks for disease detection. Scientific reports 7(1):17816.
+Lemaˆıtre, G.; Nogueira, F.; and Aridas, C. K. 2017.
+Imbalanced-learn: A python toolbox to tackle the curse of
+imbalanced datasets in machine learning. Journal of Machine
+Learning Research 18(17):1–5.
+Liu, X.-Y.; Wu, J.; and Zhou, Z.-H. 2009. Exploratory
+undersampling for class-imbalance learning. IEEE Transactions
+on Systems, Man, and Cybernetics, Part B (Cybernetics)
+39(2):539–550.
+Mani, I., and Zhang, I. 2003. knn approach to unbalanced data
+distributions: a case study involving information extraction.
+In Proceedings of workshop on learning from imbalanced
+datasets, volume 126.
+Matthews, B. W. 1975. Comparison of the predicted and
+observed secondary structure of t4 phage lysozyme. Biochimica
+et Biophysica Acta (BBA)-Protein Structure 405(2):442–451.
+Norouzi, M.; Bengio, S.; Jaitly, N.; Schuster, M.; Wu, Y.;
+Schuurmans, D.; et al. 2016. Reward augmented maximum
+likelihood for neural structured prediction. In Advances In
+Neural Information Processing Systems, 1723–1731.
+Parambath, S. P.; Usunier, N.; and Grandvalet, Y. 2014.
+Optimizing f-measures by cost-sensitive classification. In
+Advances in Neural Information Processing Systems, 2123–
+2131.
+Pedregosa, F.; Varoquaux, G.; Gramfort, A.; Michel, V.;
+Thirion, B.; Grisel, O.; Blondel, M.; Prettenhofer, P.; Weiss,
+R.; Dubourg, V.; Vanderplas, J.; Passos, A.; Cournapeau, D.;
+Brucher, M.; Perrot, M.; and Duchesnay, E. 2011. Scikit-learn:
+Machine learning in Python. Journal of Machine Learning
+Research 12:2825–2830.
+Ranzato, M.; Chopra, S.; Auli, M.; and Zaremba, W. 2015.
+Sequence level training with recurrent neural networks. arXiv
+preprint arXiv:1511.06732.
+Tieleman, T., and Hinton, G. 2012. Lecture 6.5-rmsprop:
+Divide the gradient by a running average of its recent
+magnitude. COURSERA: Neural networks for machine
+learning 4(2):26–31.
+Tomek, I. 1976a. An experiment with the edited nearestneighbor
+rule. IEEE Transactions on systems, Man, and
+Cybernetics (6):448–452.
+Tomek, I. 1976b. Two modifications of cnn. IEEE Trans.
+Systems, Man and Cybernetics 6:769–772.
+Van Hulse, J.; Khoshgoftaar, T. M.; and Napolitano, A. 2007.
+Experimental perspectives on learning from imbalanced data.
+In Proceedings of the 24th international conference on Machine
+learning, 935–942. ACM.
+Williams, R. J. 1992. Simple statistical gradient-following
+algorithms for connectionist reinforcement learning. In
+Reinforcement Learning. Springer. 5–32.
+Wilson, D. L. 1972. Asymptotic properties of nearest neighbor
+rules using edited data. IEEE Transactions on Systems, Man,
+and Cybernetics (3):408–421.
+Wu, Y.; Schuster, M.; Chen, Z.; Le, Q. V.; Norouzi, M.;
+Macherey, W.; Krikun, M.; Cao, Y.; Gao, Q.; Macherey, K.;
+et al. 2016. Google’s neural machine translation system:
+Bridging the gap between human and machine translation.
+arXiv preprint arXiv:1609.08144.
+
 #48 Transfer of Machine Learning Fairness across Domains
+
+false positive rates (FPR) 
+false negative rate (FNR)
+
+References
+[1] A. Agarwal, A. Beygelzimer, M. Dudík, J. Langford, and H. M.Wallach. A reductions approach
+to fair classification. In Proceedings of the 35th International Conference on Machine Learning,
+ICML 2018, Stockholmsmässan, Stockholm, Sweden, July 10-15, 2018, pages 60–69, 2018.
+[2] S. Ben-David, J. Blitzer, K. Crammer, and F. Pereira. Analysis of representations for domain
+adaptation. In Advances in neural information processing systems, pages 137–144, 2007.
+[3] S. Ben-David, J. Blitzer, K. Crammer, A. Kulesza, F. Pereira, and J. W. Vaughan. A theory of
+learning from different domains. Machine learning, 79(1-2):151–175, 2010.
+[4] A. Beutel, J. Chen, Z. Zhao, and E. H. Chi. Data decisions and theoretical implications
+when adversarially learning fair representations. Proceedings of the Conference on Fairness,
+Accountability and Transparency, 2017.
+[5] A. Beutel, J. Chen, T. Doshi, H. Qian, A. Woodruff, C. Luu, P. Kreitmann, J. Bischof, and E. H.
+Chi. Putting fairness principles into practice: Challenges, metrics, and improvements. Artificial
+Intelligence, Ethics, and Society, 2019.
+[6] K. Bousmalis, G. Trigeorgis, N. Silberman, D. Krishnan, and D. Erhan. Domain separation
+networks. In Advances in Neural Information Processing Systems 29: Annual Conference on
+Neural Information Processing Systems 2016, December 5-10, 2016, Barcelona, Spain, pages
+343–351, 2016.
+[7] I. Chen, F. D. Johansson, and D. Sontag. Why is my classifier discriminatory? arXiv preprint
+arXiv:1805.12002, 2018.
+[8] J. Chen, N. Kallus, X. Mao, G. Svacha, and M. Udell. Fairness under unawareness: Assessing
+disparity when protected class is unobserved. In FAT*, pages 339–348. ACM, 2019.
+[9] A. Coston, K. N. Ramamurthy, D. Wei, K. R. Varshney, S. Speakman, Z. Mustahsan, and
+S. Chakraborty. Fair transfer learning with missing protected attributes. In Proceedings of the
+AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society, Honolulu, HI, USA, 2019.
+[10] K. Crammer, M. Kearns, and J. Wortman. Learning from multiple sources. Journal of Machine
+Learning Research, 9(Aug):1757–1774, 2008.
+[11] L. Dixon, J. Li, J. Sorensen, N. Thain, and L. Vasserman. Measuring and mitigating
+unintended bias in text classification. In available at: www. aies-conference. com/wpcontent/
+papers/main/AIES_2018_paper_9. pdf (accessed 6 August 2018).[Google Scholar],
+2018.
+[12] H. Edwards and A. J. Storkey. Censoring representations with an adversary. In 4th International
+Conference on Learning Representations, ICLR 2016, San Juan, Puerto Rico, May 2-4, 2016,
+Conference Track Proceedings, 2016.
+
+[13] Y. Ganin, E. Ustinova, H. Ajakan, P. Germain, H. Larochelle, F. Laviolette, M. Marchand,
+and V. Lempitsky. Domain-adversarial training of neural networks. The Journal of Machine
+Learning Research, 17(1):2096–2030, 2016.
+[14] G. Goh, A. Cotter, M. Gupta, and M. P. Friedlander. Satisfying real-world goals with dataset
+constraints. In D. D. Lee, M. Sugiyama, U. V. Luxburg, I. Guyon, and R. Garnett, editors,
+Advances in Neural Information Processing Systems 29, pages 2415–2423. Curran Associates,
+Inc., 2016.
+[15] A. Gretton, K. M. Borgwardt, M. J. Rasch, B. Schölkopf, and A. Smola. A kernel two-sample
+test. In The Journal of Machine Learning Research, 2012.
+[16] M. R. Gupta, A. Cotter, M. M. Fard, and S. Wang. Proxy fairness. CoRR, abs/1806.11212,
+2018. URL http://arxiv.org/abs/1806.11212.
+[17] M. Hardt, E. Price, N. Srebro, et al. Equality of opportunity in supervised learning. In Advances
+in neural information processing systems, pages 3315–3323, 2016.
+[18] N. Kallus and A. Zhou. Residual unfairness in fair machine learning from prejudiced data. In
+Proceedings of the 35th International Conference on Machine Learning, ICML 2018, Stockholmsmässan,
+Stockholm, Sweden, July 10-15, 2018, pages 2444–2453, 2018.
+[19] N. Kallus and A. Zhou. Assessing disparate impacts of personalized interventions: Identifiability
+and bounds. arXiv preprint arXiv:1906.01552, 2019.
+[20] C. Lan and J. Huan. Discriminatory transfer. CoRR, 2017. URL http://arxiv.org/abs/
+1707.00780.
+[21] Y. Li, T. Baldwin, and T. Cohn. Towards robust and privacy-preserving text representations.
+arXiv preprint arXiv:1805.06093, 2018.
+[22] M. Long, Y. Cao, J. Wang, and M. Jordan. Learning transferable features with deep adaptation
+networks. In Proceedings of the 32nd International Conference on International Conference on
+Machine Learning, 2015.
+[23] C. Louizos, K. Swersky, Y. Li, M. Welling, and R. S. Zemel. The variational fair autoencoder.
+In 4th International Conference on Learning Representations, ICLR 2016, San Juan, Puerto
+Rico, May 2-4, 2016, Conference Track Proceedings, 2016.
+[24] D. Madras, E. Creager, T. Pitassi, and R. Zemel. Learning adversarially fair and transferable
+representations. arXiv preprint arXiv:1802.06309, 2018.
+[25] Y. Mansour, M. Mohri, and A. Rostamizadeh. Domain adaptation: Learning bounds and
+algorithms. COLT, 2009.
+[26] S. J. Pan, Q. Yang, et al. A survey on transfer learning. IEEE Transactions on knowledge and
+data engineering, 22(10):1345–1359, 2010.
+[27] D. Sculley, G. Holt, D. Golovin, E. Davydov, T. Phillips, D. Ebner, V. Chaudhary, M. Young,
+J.-F. Crespo, and D. Dennison. Hidden technical debt in machine learning systems. In Advances
+in neural information processing systems, pages 2503–2511, 2015.
+[28] D. Tsipras, S. Santurkar, L. Engstrom, A. Turner, and A. Madry. There is no free lunch in
+adversarial robustness (but there are unexpected benefits). arXiv preprint arXiv:1805.12152,
+2018.
+[29] K. Weiss, T. M. Khoshgoftaar, and D. Wang. A survey of transfer learning. Journal of Big Data,
+2016.
+[30] M. B. Zafar, I. Valera, M. Gomez-Rodriguez, and K. P. Gummadi. Fairness constraints:
+Mechanisms for fair classification. In Proceedings of the 20th International Conference on
+Artificial Intelligence and Statistics, AISTATS 2017, 20-22 April 2017, Fort Lauderdale, FL,
+USA, pages 962–970, 2017.
+[31] B. H. Zhang, B. Lemoine, and M. Mitchell. Mitigating unwanted biases with adversarial
+learning. CoRR, abs/1801.07593, 2018. URL http://arxiv.org/abs/1801.07593.
+
 #49 Using Image Fairness Representations in Diversity-Based Re-ranking for Recommendations
+
+Maximal Marginal Relevance (MMR)
+Fairness Maximal Marginal Relevance (FMMR) 
+
+REFERENCES
+[1] [n. d.]. Burst. hps://burst.shopify.com/. Accessed: 2018-04-18.
+[2] Abolfazl Asudehy, HV Jagadishy, Julia Stoyanovichz, and Gautam Das. 2017.
+Designing Fair Ranking Schemes. arXiv preprint arXiv:1712.09752 (2017).
+[3] Joy Buolamwini and Timnit Gebru. 2018. Gender shades: Intersectional accuracy
+disparities in commercial gender classication. In Conference on Fairness,
+Accountability and Transparency. 77–91.
+[4] Robin Burke, Nasim Sonboli, Masoud Mansoury, and Aldo Ordo ˜ nez-Gauger. 2017.
+Balanced Neighborhoods for Fairness-aware Collaborative Recommendation.
+(2017).
+[5] Jaime Carbonell and Jade Goldstein. 1998. e use of MMR, diversity-based
+reranking for reordering documents and producing summaries. In Proceedings of
+the 21st annual international ACM SIGIR conference on Research and development
+in information retrieval. ACM, 335–336.
+[6] L Elisa Celis, Damian Straszak, and Nisheeth K Vishnoi. 2017. Ranking with
+fairness constraints. arXiv preprint arXiv:1704.06840 (2017).
+[7] Yoav Goldberg and Omer Levy. 2014. word2vec explained: Deriving mikolov et
+al.’s negative-sampling word-embedding method. arXiv preprint arXiv:1402.3722
+(2014).
+[8] Yushi Jing, David Liu, Dmitry Kislyuk, Andrew Zhai, Jiajing Xu, Je Donahue,
+and Sarah Tavel. 2015. Visual search at pinterest. In Proceedings of the 21th ACM
+SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM,
+1889–1898.
+[9] Je Johnson, Mahijs Douze, and Herv´e J´egou. 2017. Billion-scale similarity
+search with GPUs. arXiv preprint arXiv:1702.08734 (2017).
+[10] Honglak Lee. 2010. Unsupervised feature learning via sparse hierarchical representations.
+Stanford University.
+[11] Xia Ning and George Karypis. 2011. Slim: Sparse linear methods for top-n
+recommender systems. In Data Mining (ICDM), 2011 IEEE 11th International
+Conference on. IEEE, 497–506.
+[12] Zhou Ren, Hailin Jin, Zhe Lin, Chen Fang, and Alan Yuille. 2016. Joint image-text
+representation by gaussian visual-semantic embedding. In Proceedings of the
+2016 ACM on Multimedia Conference. ACM, 207–211.
+[13] Sco Sanner, Shengbo Guo, ore Graepel, Sadegh Kharazmi, and Sarvnaz
+Karimi. 2011. Diverse retrieval via greedy optimization of expected 1-call@ k in
+a latent subtopic relevance model. In Proceedings of the 20th ACM international
+conference on Information and knowledge management. ACM, 1977–1980.
+[14] Devashish Shankar, Sujay Narumanchi, HA Ananya, Pramod Kompalli, and
+Krishnendu Chaudhury. 2017. Deep learning based large scale visual recommendation
+and search for E-Commerce. arXiv preprint arXiv:1703.02344 (2017).
+[15] Karen Simonyan and Andrew Zisserman. 2014. Very deep convolutional networks
+for large-scale image recognition. arXiv preprint arXiv:1409.1556 (2014).
+[16] Ashudeep Singh and orsten Joachims. 2018. Fairness of Exposure in Rankings.
+arXiv preprint arXiv:1802.07281 (2018).
+[17] Christian Szegedy, Vincent Vanhoucke, Sergey Ioe, Jon Shlens, and Zbigniew
+Wojna. 2016. Rethinking the inception architecture for computer vision. In
+Proceedings of the IEEE Conference on Computer Vision and Paern Recognition.
+2818–2826.
+[18] Fan Yang, Ajinkya Kale, Yury Bubnov, Leon Stein, QiaosongWang, Hadi Kiapour,
+and Robinson Piramuthu. 2017. Visual search at ebay. In Proceedings of the 23rd
+ACM SIGKDD International Conference on Knowledge Discovery and Data Mining.
+ACM, 2101–2110.
+[19] Ke Yang and Julia Stoyanovich. 2016. Measuring fairness in ranked outputs.
+arXiv preprint arXiv:1610.08559 (2016).
+[20] Jun Yu, Sunil Mohan, Duangmanee Pew Puhividhya, and Weng-Keen Wong.
+2014. Latent dirichlet allocation based diversied retrieval for e-commerce search.
+In Proceedings of the 7th ACM international conference on Web search and data
+mining. ACM, 463–472.
+[21] Meike Zehlike, Francesco Bonchi, Carlos Castillo, Sara Hajian, Mohamed Megahed,
+and Ricardo Baeza-Yates. 2017. Fa* ir: A fair top-k ranking algorithm.
+In Proceedings of the 2017 ACM on Conference on Information and Knowledge
+Management. ACM, 1569–1578.
+[22] Rich Zemel, Yu Wu, Kevin Swersky, Toni Pitassi, and Cynthia Dwork. 2013.
+Learning fair representations. In International Conference on Machine Learning.
+325–333.
+
 #50 Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning
+
+local distributional smoothness (LDS) 
+random perturbation training (RPT)
+Street View House Numbers (SVHN)
+virtual adversarial training (VAT)
+virtual adversarial examples (VAEs)
+
+REFERENCES
+[1] Martın Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo,
+Zhifeng Chen, Craig Citro, Greg S Corrado, Andy Davis, Jeffrey
+Dean, Matthieu Devin, et al. Tensorflow: Large-scale machine
+learning on heterogeneous distributed systems. arXiv preprint
+arXiv:1603.04467, 2016.
+[2] Mudassar Abbas, Jyri Kivinen, and Tapani Raiko. Understanding
+regularization by virtual adversarial training, ladder networks and
+others. In Workshop on ICLR, 2016.
+[3] Hirotugu Akaike. Information theory and an extension of the
+maximum likelihood principle. In Selected Papers of Hirotugu
+Akaike, pages 199–213. Springer, 1998.
+[4] Vladimir Igorevich Arnol’d. Mathematical methods of classical mechanics,
+volume 60. Springer Science & Business Media, 2013.
+[5] Philip Bachman, Ouais Alsharif, and Doina Precup. Learning with
+pseudo-ensembles. In NIPS, 2014.
+[6] Christopher M Bishop. Training with noise is equivalent to
+Tikhonov regularization. Neural computation, 7(1):108–116, 1995.
+[7] Christopher M Bishop. Pattern Recognition and Machine Learning.
+Springer, 2006.
+[8] Ronan Collobert, Fabian Sinz, Jason Weston, and L´eon Bottou.
+Large scale transductive SVMs. Journal of Machine Learning Research,
+7(Aug):1687–1712, 2006.
+[9] Yarin Gal and Zoubin Ghahramani. Dropout as a Bayesian
+approximation: Representing model uncertainty in deep learning.
+In ICML, 2016.
+[10] Xavier Glorot, Antoine Bordes, and Yoshua Bengio. Deep sparse
+rectifier neural networks. In AISTATS, 2011.
+[11] Gene H Golub and Henk A van der Vorst. Eigenvalue computation
+in the 20th century. Journal of Computational and Applied
+Mathematics, 123(1):35–65, 2000.
+[12] Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Deep Learning.
+MIT Press, 2016. http://www.deeplearningbook.org.
+[13] Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu,
+David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua
+Bengio. Generative adversarial nets. In NIPS, 2014.
+[14] Ian Goodfellow, Jonathon Shlens, and Christian Szegedy. Explaining
+and harnessing adversarial examples. In ICLR, 2015.
+[15] Yves Grandvalet and Yoshua Bengio. Semi-supervised learning by
+entropy minimization. In NIPS, 2004.
+[16] Shixiang Gu and Luca Rigazio. Towards deep neural network
+architectures robust to adversarial examples. In Workshop on ICLR,
+2015.
+[17] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Identity
+mappings in deep residual networks. In ECCV, 2016.
+[18] Gao Huang, Zhuang Liu, and Kilian Q Weinberger. Densely
+connected convolutional networks. In CVPR, 2017.
+[19] Sergey Ioffe and Christian Szegedy. Batch normalization: Accelerating
+deep network training by reducing internal covariate shift.
+In ICML, 2015.
+[20] Kevin Jarrett, Koray Kavukcuoglu, Marc’Aurelio Ranzato, and
+Yann LeCun. What is the best multi-stage architecture for object
+recognition? In ICCV, 2009.
+[21] Diederik Kingma and Jimmy Ba. Adam: A method for stochastic
+optimization. In ICLR, 2015.
+[22] Diederik Kingma, Shakir Mohamed, Danilo Jimenez Rezende, and
+Max Welling. Semi-supervised learning with deep generative
+models. In NIPS, 2014.
+[23] Alex Krizhevsky and Geoffrey Hinton. Learning multiple layers
+of features from tiny images. Technical Report, University of Toronto,
+2009.
+[24] Samuli Laine and Timo Aila. Temporal ensembling for semisupervised
+learning. In ICLR, 2017.
+[25] Chen-Yu Lee, Saining Xie, Patrick Gallagher, Zhengyou Zhang,
+and Zhuowen Tu. Deeply-supervised nets. In AISTATS, 2015.
+[26] Min Lin, Qiang Chen, and Shuicheng Yan. Network in network.
+In ICLR, 2014.
+[27] Lars Maaløe, Casper Kaae Sønderby, Søren Kaae Sønderby, and
+Ole Winther. Auxiliary deep generative models. In ICML, 2016.
+14
+[28] Andrew L Maas, Awni Y Hannun, and Andrew Y Ng. Rectifier
+nonlinearities improve neural network acoustic models. In ICML,
+2013.
+[29] Shin-ichi Maeda. A Bayesian encourages dropout. arXiv preprint
+arXiv:1412.7003, 2014.
+[30] Takeru Miyato, Shin-ichi Maeda, Masanori Koyama, Ken Nakae,
+and Shin Ishii. Distributional smoothing with virtual adversarial
+training. In ICLR, 2016.
+[31] Vinod Nair and Geoffrey E Hinton. Rectified linear units improve
+restricted Boltzmann machines. In ICML, 2010.
+[32] Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco,
+Bo Wu, and Andrew Y Ng. Reading digits in natural images with
+unsupervised feature learning. In Workshop on deep learning and
+unsupervised feature learning on NIPS, 2011.
+[33] Antti Rasmus, Mathias Berglund, Mikko Honkala, Harri Valpola,
+and Tapani Raiko. Semi-supervised learning with ladder networks.
+In NIPS, 2015.
+[34] Russell Reed, Seho Oh, and RJ Marks. Regularization using jittered
+training data. In IJCNN. IEEE, 1992.
+[35] Mehdi Sajjadi, Mehran Javanmardi, and Tolga Tasdizen. Regularization
+with stochastic transformations and perturbations for deep
+semi-supervised learning. In NIPS, 2016.
+[36] Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki Cheung,
+Alec Radford, and Xi Chen. Improved techniques for training
+GANs. In NIPS, 2016.
+[37] Jost Tobias Springenberg. Unsupervised and semi-supervised
+learning with categorical generative adversarial networks. In
+ICLR, 2015.
+[38] Jost Tobias Springenberg, Alexey Dosovitskiy, Thomas Brox, and
+Martin Riedmiller. Striving for simplicity: The all convolutional
+net. In Workshop on ICLR, 2015.
+[39] Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya
+Sutskever, and Ruslan Salakhutdinov. Dropout: A simple way
+to prevent neural networks from overfitting. JMLR, 15(1), 2014.
+[40] Rupesh Kumar Srivastava, Klaus Greff, and J ¨ urgen Schmidhuber.
+Highway networks. arXiv preprint arXiv:1505.00387, 2015.
+[41] Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna,
+Dumitru Erhan, Ian Goodfellow, and Rob Fergus. Intriguing
+properties of neural networks. In ICLR, 2014.
+[42] Theano Development Team. Theano: A Python framework for
+fast computation of mathematical expressions. arXiv preprint
+arXiv:1605.02688, 2016.
+[43] Andrej N Tikhonov and Vasiliy Y Arsenin. Solutions of ill-posed
+problems. Winston, 1977.
+[44] Seiya Tokui, Kenta Oono, Shohei Hido, and Justin Clayton.
+Chainer: a next-generation open source framework for deep learning.
+In Workshop on machine learning systems (LearningSys) on NIPS,
+2015.
+[45] Stefan Wager, Sida Wang, and Percy S Liang. Dropout training as
+adaptive regularization. In NIPS, 2013.
+[46] Grace Wahba. Spline models for observational data. Siam, 1990.
+[47] Sumio Watanabe. Algebraic geometry and statistical learning
+theory. Cambridge University Press, 2009.
+[48] Junbo Zhao, Michael Mathieu, Ross Goroshin, and Yann Lecun.
+Stacked what-where auto-encoders. In Workshop on ICLR, 2016.
+[49] Xiaojin Zhu and Zoubin Ghahramani. Learning from labeled and
+unlabeled data with label propagation. Technical report, Citeseer,
+2002.
