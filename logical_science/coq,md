@@ -1,0 +1,16 @@
+# 例題１
+MathComp で文字列を使う
+https://qiita.com/suharahiromichi/items/00532afd876c6f24ba30
+
+https://github.com/suharahiromichi/coq/blob/master/pearl/ssr_string.v
+
+## docker導入候補
+
+1) https://github.com/coq-community/docker-coq
+
+
+
+
+3) https://hub.docker.com/r/ejgallego/coq
+
+docker pull ejgallego/coq
