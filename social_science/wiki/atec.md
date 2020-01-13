@@ -9,5 +9,5 @@
 
 {{aimai}}
 
-{{DEFAULTSORT:あてつくす}}
+{{DEFAULTSORT:あてつく}}
 [[Category:曖昧さ回避]]
