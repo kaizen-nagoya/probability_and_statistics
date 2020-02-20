@@ -9,15 +9,24 @@ https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/dengue_fever_qa_00
 14日以内に湖北省または浙江省への渡航歴のある方、あるいはこれらの方と接触した方で、咳や発熱などの症状がある場合には、マスクを着用するなどし、事前に保健所へ連絡したうえで、受診していただきますよう、ご協力をお願いします。
 また、医療機関の受診の際は、湖北省または浙江省の滞在歴があること、あるいは湖北省または浙江省に滞在歴がある方と接触したことを事前に申し出てください。
 
-以下のページは、機械翻訳システムによって翻訳されています。
-機械翻訳システムは100％の正確性を保証しないことに注意してください。
-一部の固有名詞は正しく翻訳されない場合があります。
-一部のPDFは翻訳できない場合があります。
+英語を選択すると
 
 The following pages are translated by a machine translation system.
 Note that the machine translation system doesn't guarantee 100% correctness.
 Some proper nouns might not be translated correctly.	
 Some PDF might not be able to translate.
+
+と出ます。2020年2月19日には、そのままハングしました。
+
+この記事を別途機械翻訳してみました。
+
+「以下のページは、機械翻訳システムによって翻訳されています。
+機械翻訳システムは100％の正確性を保証しないことに注意してください。
+一部の固有名詞は正しく翻訳されない場合があります。
+一部のPDFは翻訳できない場合があります。」
+
+
+元記事をスペイン語、イタリア語に試訳してみました。
 
 English:
 Question 9 Is there anything I need to be careful about to prevent infection? What should I do if I am worried? NEW
