@@ -45,3 +45,11 @@ Inoltre, se hai una malattia cronica, oltre a quanto sopra, ti preghiamo di pres
 Se hai viaggiato nella provincia di Hubei o nella provincia di Zhejiang entro 14 giorni o hai contattato con loro, se hai sintomi come tosse o febbre, indossa una maschera e recati in un centro sanitario in anticipo. Apprezzeremmo la tua collaborazione in modo che tu possa avere una consulenza dopo averci contattato.
 Inoltre, quando si consulta un istituto medico, si prega di informare in anticipo che si ha una storia di permanenza a Hubei o Zhejiang o di aver contattato una persona che ha soggiornato a Hubei o Zhejiang.
  
+ OSHAの
+ 
+ 案2　スペイン語から韓国語
+>특정 노출 위험에 관계없이 모든 작업자에게 항상 좋은 습관입니다.
+- 비누와 물로 최소 20 초 동안 손을 자주 씻으십시오. 흐르는 물과 비누를 사용할 수없는 경우 알코올이 60 % 이상인 알코올 기반 손 소독제를 사용하십시오. 눈에 띄게 더러운 손은 항상 씻으십시오.
+- 더러운 손으로 눈, 코 또는 입을 만지지 마십시오.
+- 아픈 사람들과의 긴밀한 접촉을 피하십시오.
+
